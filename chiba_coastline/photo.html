@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head> 
+<meta charset=UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>photo</title> 
+<link rel="SHORTCUT ICON" href="../favicon.ico">
+<link rel="stylesheet" type="text/css" href="../_css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/photos.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+<script>
+
+//    var src = "http://static.flickr.com/963/28201464898_bff3a41245_h.jpg";
+    var caption = "";
+
+	var params = location.href.split("?")[1];
+
+	if (params) {
+		var param = params.split("&");
+		for (var i in param) {
+			if (param[i].split("=")[0] == "src") {
+				var src = param[i].split("=")[1];
+			}
+			if (param[i].split("=")[0] == "caption") {
+				var caption = decodeURI( param[i].split("=")[1] );
+			}
+		}
+	}
+
+  $(function(){
+
+    $("#photo").attr({
+      src: src
+    });
+
+    if (caption !== "") {
+      var $span = $("<span>" + caption + "</span>").appendTo("#caption");
+    }
+
+  });
+
+</script>
+
+</head> 
+
+<body> 
+  <img id="photo" src="../_img/loadingAnimation.gif">
+  <div id="caption-wrapper">
+    <div id="caption">
+    </div>
+  </div>
+</body> 
+
+</html>

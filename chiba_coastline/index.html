@@ -1,0 +1,874 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>千葉の旧海岸線</title>
+    <link rel="stylesheet" type="text/css" href="../_css/reset.css">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #title {
+        text-align: center;
+        position: absolute;
+        top: 10px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 300px;
+        height: 40px;
+        font: bold 32px 'Roboto','sans-serif';
+        background-color: powderblue;
+      }
+      #floating-panel {
+        position: absolute;
+        top: 55px;
+        left: 10px;
+        z-index: 0;
+        background-color: #fff;
+        padding: 5px;
+        border: 1px solid #999;
+        text-align: left;
+        font-family: 'Roboto','sans-serif';
+        line-height: 30px;
+        padding-left: 10px;
+      }
+      #floating-panel p {
+        margin: 0px;
+      }
+      #doc span{
+        text-align: left;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 650px;
+        height: 120px;
+        font: normal 18px 'Roboto','sans-serif';
+        background-color: powderblue;
+    max-width: 100%;
+    max-height: 100%;
+      }
+      .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: 80%;
+        border: 0;
+      }
+
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCb8PavWo2x5mnndiskqEET4tb5iUkkpIc&libraries=geometry"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="../_js/GM.lib.js"></script>
+    <script src="../_js/jQuery.simplyModal.js"></script>
+    <script>
+      // This example adds hide() and show() methods to a custom overlay's prototype.
+      // These methods toggle the visibility of the container <div>.
+      // Additionally, we add a toggleDOM() method, which attaches or detaches the
+      // overlay to or from the map.
+
+//      var overlay;
+      var overlays = [];
+      var photos = [];
+      var map;
+
+
+// 航空写真の設定
+
+      var i = 0;
+      overlays[i] = {
+        srcImage : "image/001.png",
+        latMin : 35.5935,
+        lngMin : 140.1109,
+        latRng : 0.0075,
+        lngRng : 0.0132
+      }
+    
+      i++;
+      overlays[i] = {
+        srcImage : "image/002.png",
+        latMin : 35.60044,
+        lngMin : 140.10695,
+        latRng : 0.0075,
+        lngRng : 0.0132
+      }
+
+      i++;
+      overlays[i] = {
+        srcImage : "image/003.png",
+        latMin : 35.60737,
+        lngMin : 140.10128,
+        latRng : 0.0073,
+        lngRng : 0.0132
+      }
+
+      i++;
+      overlays[i] = {
+        srcImage : "image/004.png",
+        latMin : 35.61416,
+        lngMin : 140.0938,
+        latRng : 0.0075,
+        lngRng : 0.0131
+      }
+
+      i++;
+      overlays[i] = {
+        srcImage : "image/005.png",
+        latMin : 35.62095,
+        lngMin : 140.0860,
+        latRng : 0.0074,
+        lngRng : 0.0132
+      }
+
+      i++;
+      overlays[i] = {
+        srcImage : "image/006.png",
+        latMin : 35.6279,
+        lngMin : 140.0788,
+        latRng : 0.0075,
+        lngRng : 0.0132
+      }
+
+      i++;
+      overlays[i] = {
+        srcImage : "image/007.png",
+        latMin : 35.6344,
+        lngMin : 140.0708,
+        latRng : 0.0075,
+        lngRng : 0.0132
+      }
+
+      i++;
+      overlays[i] = {
+        srcImage : "image/008.png",
+        latMin : 35.64162,
+        lngMin : 140.0615,
+        latRng : 0.0075,
+        lngRng : 0.0132
+      }
+
+      i++;
+      overlays[i] = {
+        srcImage : "image/009.png",
+        latMin : 35.64811,
+        lngMin : 140.0546,
+        latRng : 0.0074,
+        lngRng : 0.0133
+      }
+
+      i++;
+      overlays[i] = {
+        srcImage : "image/010.png",
+        latMin : 35.65405,
+        lngMin : 140.0490,
+        latRng : 0.0074,
+        lngRng : 0.0130
+      }
+
+      i++;
+      overlays[i] = {
+        srcImage : "image/011.png",
+        latMin : 35.65850,
+        lngMin : 140.0394,
+        latRng : 0.0075,
+        lngRng : 0.0132
+      }
+
+      i++;
+      overlays[i] = {
+        srcImage : "image/012.png",
+        latMin : 35.6647,
+        lngMin : 140.0296,
+        latRng : 0.0077,
+        lngRng : 0.0132
+      }
+
+      i++;
+      overlays[i] = {
+        srcImage : "image/013.png",
+        latMin : 35.67098,
+        lngMin : 140.01918,
+        latRng : 0.0073,
+        lngRng : 0.0132
+      }
+
+      i++;
+      overlays[i] = {
+        srcImage : "image/014.png",
+        latMin : 35.67762,
+        lngMin : 140.00720,
+        latRng : 0.0075,
+        lngRng : 0.0132
+      }
+
+      i++;
+      overlays[i] = {
+        srcImage : "image/015.png",
+        latMin : 35.67846,
+        lngMin : 139.99618,
+        latRng : 0.0075,
+        lngRng : 0.0132
+      }
+
+      i++;
+      overlays[i] = {
+        srcImage : "image/016.png",
+        latMin : 35.6741,
+        lngMin : 140.01408,
+        latRng : 0.0075,
+        lngRng : 0.0132
+      }
+
+      for (var i = 0; i < overlays.length; i++) {
+        overlays[i].latMax = overlays[i].latMin + overlays[i].latRng;
+        overlays[i].lngMax = overlays[i].lngMin + overlays[i].lngRng;
+        overlays[i].bounds = new google.maps.LatLngBounds(
+          new google.maps.LatLng( overlays[i].latMin, overlays[i].lngMin ),
+          new google.maps.LatLng( overlays[i].latMax, overlays[i].lngMax )
+        );
+      }
+
+
+// 写真の設定
+
+      var i = 0;
+      photos[i] = {
+        position: new google.maps.LatLng( 35.598139, 140.117426 ), 
+        text: "都川",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWcxp1JPTEwRL1EYL6byUW_S6Qvdeqo-d_2V-CRWX1COIJtrJAWEOzMURlzfJMVWlLZlOfv4hdeXKp6W4aKhOm9Dplb2y40mU4qJlrKWY6Xu-GeT7CSmrI_d_-0LgfkVcQrVD2akz354qi/s1600/2018-05-01+0831+%25E9%2583%25BD%25E5%25B7%259D.JPG",
+        topOrBottom: "top",
+        left: "60px",
+        skewX: "-60deg",
+        caption: "国道357にかかる橋の上から上手方向を撮った写真"
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+      i++;
+      photos[i] = {
+        position: new google.maps.LatLng( 35.598639, 140.115237 ), 
+        text: "出洲港公園",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikOjmoBi_NDRhYGbuLAYOy6EunhOpP1gyACvpBDyV9ndbxvNvPys5stVFOaqHstATJ0MWUc44k2TUprP2DRS36bIQdEqFPTf5e9PD5hCHtnhamrihO_L4_5BTtWTUBTzGZam_Iu_26KzzO/s1600/2018-05-01+0832+%25E5%2587%25BA%25E6%25B4%25B2%25E6%25B8%25AF%25E5%2585%25AC%25E5%259C%2592.JPG",
+        topOrBottom: "bottom",
+        left: "-10px",
+        skewX: "0deg",
+        caption: "昔の海岸線です。写真を撮った場所から公園側が海でした。"
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+      i++;
+      photos[i] = {
+        position: new google.maps.LatLng( 35.602373, 140.115371 ), 
+        text: "新明神社",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi70od9hFZKovEC0NtC_8NJrv5gTvcgJoV5DSLIeC-1uQJB6cpMCGS4MwInI1d5yE-kHy2sEdTHBG7tdiByCXnLINOGtVY3ll6sEw1f2kg1YRw-jIXAiWhpNmbWzzGe4hIPZTxb8HM9OBLL/s1600/2018-05-01+0833+%25E6%2596%25B0%25E6%2598%258E%25E7%25A5%259E%25E7%25A4%25BE.JPG",
+        topOrBottom: "top",
+        left: "-10px",
+        skewX: "0deg"
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src;
+
+      i++;
+      photos[i] = {
+				position: new google.maps.LatLng( 35.603869, 140.114353 ), 
+        text: "白幡神社",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP5ZuDX_uNH-xr23oJVnuFEMSQZS3fDlwdxnRd4JOe_5FrBnTCAjG_6TDlByEMVJZn_hrK9DfMl2npXXkXnHVvc3JmtXdf4adby2N-NkRlQiw-qbG0y476KIdvloWmy0KI2EqrmCp0tFRB/s1600/2018-05-01+0837+%25E7%2599%25BD%25E5%25B9%25A1%25E7%25A5%259E%25E7%25A4%25BE.JPG",
+        topOrBottom: "bottom",
+        left: "-150px",
+        skewX: "-45deg"
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src;
+
+      i++;
+      photos[i] = {
+				position: new google.maps.LatLng( 35.606120, 140.111164 ), 
+        text: "新宿",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjn4fMbTzcn9JIFyahBR0fckvBK485R9nBGT3od3QHXZPTs4L8ZYuJOqhnqe8w_CUzjmwT-_goqupyUXqhFu8JulK7_GdPctAdeQHY3a1d21VptRVYa81WEsvEcD168Um5eDH4h0vQKAGFd/s1600/2018-05-01+0839+%25E6%2596%25B0%25E5%25AE%25BF.JPG",
+        topOrBottom: "top",
+        left: "10px",
+        skewX: "-30deg",
+        caption: encodeURI("味噌屋だったようです。<br>埋めたて前からあった雰囲気が．．．")
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+      i++;
+      photos[i] = {
+				position: new google.maps.LatLng( 35.610349, 140.107172 ), 
+        text: "登戸",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKi8I7YofO4z7Zdm_tmmVdLxk8dFhhj8KipKpSKsKrY-t8KwcshRVRDgRajXn_G8ZqwHuRSreq5h-YT8SnPln_2maXZ0nyjeK-IVaPIO8g0uUqxXpTmLVGGixisZ8-dcxWNymyrpeJIKSt/s1600/2018-05-01+0840+%25E7%2599%25BB%25E6%2588%25B8.JPG",
+        topOrBottom: "bottom",
+        left: "-125px",
+        skewX: "-30deg",
+        caption: encodeURI("登戸(のぶと)。海岸に続くなだらかな下り坂。ビルが建っているあたりは海でした。")
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+      i++;
+      photos[i] = {
+				position: new google.maps.LatLng( 35.611537, 140.106727 ), 
+        text: "登渡神社",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwLrSAt-s8Jle9blh0dKNgABQhM1ZMDYzRt9JKWjZ0ZdrtUf3mWj-U0jmCxMYoWqvuMaxF3soqa2w4Pc8XDk3qxzoTaVf5c_iTjBpi0mDCv9XIRO-K82CD12cgfFiTsEBFN4dswFzy0Rjh/s1600/2018-05-01+0841+%25E7%2599%25BB%25E6%25B8%25A1%25E7%25A5%259E%25E7%25A4%25BE.JPG",
+        topOrBottom: "top",
+        left: "10px",
+        skewX: "-30deg",
+        caption: encodeURI("登渡神社(とわたりじんじゃ、通称のぶとじんじゃ)。丘の上に建っています。")
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+      i++;
+      photos[i] = {
+				position: new google.maps.LatLng( 35.612234, 140.106261 ), 
+        text: "登渡神社",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjI_xW7K-ow9We6tICrWMn_N4oWZKIOMAfaWg9fzAs-Lff1HNjHv4_RdU82d5YncQNhWRyuPfghQ5DexPnFfBSQP1mpTafrbYkah-Mqy9MCg6n559zxPk-RqPozWMSSN4sWjUQLgfFh65-j/s1600/2018-05-01+0844+%25E7%2599%25BB%25E6%25B8%25A1%25E7%25A5%259E%25E7%25A4%25BE.JPG",
+        topOrBottom: "bottom",
+        left: "-125px",
+        skewX: "-30deg",
+        caption: encodeURI("登渡神社(とわたりじんじゃ、通称のぶとじんじゃ)。<br>ビルが建っているあたりは、昔は海でした。海を望む高台に立つ神社でした")
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+      i++;
+      photos[i] = {
+				position: new google.maps.LatLng( 35.615801, 140.102483 ), 
+        text: "登渡",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyhOnhFA-lS0OMhKWRzD5JiYwjVXH4_K7YyLI42jc8qFj-cMYnnYumC8KrhuaZup-6aXgDqfp5PdT_1kknfzRUxlZRnNC3QhvxbuFU8tjvK0poZ30RTB7C2dkO4guVzOo6wnmc7FilO6L2/s1600/2018-05-01+0846+%25E7%2599%25BB%25E6%2588%25B8.JPG",
+        topOrBottom: "top",
+        left: "10px",
+        skewX: "-30deg",
+        caption: encodeURI("海岸段丘の上に建つ焼き蛤屋。向こう側の急な坂の下は海でした。")
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+      i++;
+      photos[i] = {
+				position: new google.maps.LatLng( 35.616651, 140.100453 ), 
+        text: "登渡",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiolMhilvDJph_2KrElXAGIwf6_Q-igZrpjD7UPYFLuwxC64fIFg1bHOUKE1ihR29CCMEnqnqfynKK4DHNv-EBBoQ-GaAsGfW6WnBQZ3GLgnO9pBE50DXjWjyl7GOwy7orF6Ztukn0Y8pBM/s1600/2018-05-01+0847+%25E7%2599%25BB%25E6%2588%25B8.JPG",
+        topOrBottom: "bottom",
+        left: "-125px",
+        skewX: "-30deg",
+        caption: encodeURI("旧海岸から海岸段丘の上に続く急な坂道。")
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+      i++;
+      photos[i] = {
+				position: new google.maps.LatLng( 35.618426, 140.098570 ), 
+        text: "登渡",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8Zp7JwYBVnftiU6X0hQmz-0J-kOl3dURc0q-3nuZVfpIjtT39_YXvo9RK0aE0swiJxKaQoS_BD2FGrBLldQHZv4Pc9yx9idc_9ZAvNyuLPnj4p-ExgwaV3CT6U_WJ9AkSsHKMZLcVmKIo/s1600/2018-05-01+0849+%25E7%2599%25BB%25E6%2588%25B8.JPG",
+        topOrBottom: "top",
+        left: "10px",
+        skewX: "-30deg",
+        caption: encodeURI("右手の黒松が生え茂ってい海食崖がる昔の面影をとどめている。<br/>左手の国道14号が海岸線または波食台のあった場所。")
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+      i++;
+      photos[i] = {
+				position: new google.maps.LatLng( 35.619307, 140.097631 ), 
+        text: "登渡",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8roCvfjDPh3jehxrBm3qVwrjJJzKy57AV0GkmQIUrAgY2ql0vtKK6s95w-kyvq1M6VKtSUl3Yro_NAmdBIxsPpczjf1uR51lnGdJ5mOVjjfulkeBgyoKwTDyAjRLCNw7iw4en3xFWis6Q/s1600/2018-05-01+0851+%25E7%2599%25BB%25E6%2588%25B8.JPG",
+        topOrBottom: "bottom",
+        left: "-125px",
+        skewX: "-30deg",
+        caption: encodeURI("海食崖をまっすぐ登る階段。")
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+      i++;
+      photos[i] = {
+				position: new google.maps.LatLng( 35.620061, 140.096993 ), 
+        text: "登渡",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjR3iaoMLPtBXnHU4pPVCv8an5lUrSV6_9Bpl1Q4H69EbZHq-4KRluvfC0ghd7Xf8QbzTpkB4AFy-zUZP7r0yijo36P-5ym8fFFG_ucQftIIIaZc91hWkjKTem-s7zNplmi03haD38tGxgx/s1600/2018-05-01+0852+%25E7%2599%25BB%25E6%2588%25B8.JPG",
+        topOrBottom: "top",
+        left: "10px",
+        skewX: "-30deg",
+        caption: encodeURI("海食崖を斜めに登る道。")
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+      i++;
+      photos[i] = {
+				position: new google.maps.LatLng( 35.626733, 140.090330 ), 
+        text: "黒砂",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYxqWU6gV8laBpeJKlod7kNr4YdCw_ie544eEX7EqD6_63khcxld6cgvYjQSnt8kDiQg9N9Wf22LhoR4SoWPOURDyDip22_xK2gjdl85VdP4BrJ4LDOMf4gFrcVQbI039YgwyPRX_1_zp3/s1600/2018-05-01+0855+%25E9%25BB%2592%25E7%25A0%2582.JPG",
+        topOrBottom: "bottom",
+        left: "-125px",
+        skewX: "-30deg",
+        caption: encodeURI("国道14号（千葉街道）がほぼ旧海岸線に沿っている。<br>左手が埋め立てられた場所。")
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+      i++;
+      photos[i] = {
+				position: new google.maps.LatLng( 35.630122, 140.087197 ), 
+        text: "稲毛",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_Ynpe_B6WsgfuZalw0BBLZ11Ws2pFnvbzJSqgfXIbxeG14ModdhQ5wryWUO5AEm-ewzqItMBHkdOXax5l4oZLNNrJxLemTP56-a0ISlMvQ1eTwVRsEKLe5yLvSp1efjIX_Tb84UcqO7b7/s1600/2018-05-01+0857+%25E7%25A8%25B2%25E6%25AF%259B.JPG",
+        topOrBottom: "top",
+        left: "10px",
+        skewX: "-30deg",
+        caption: encodeURI("稲毛陸橋の手前。右手は急な海食崖。")
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+      i++;
+      photos[i] = {
+				position: new google.maps.LatLng( 35.632313, 140.084980 ), 
+        text: "稲毛陸橋",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLbG7RBfsqgPYWYBSGFthvMhH_3-xRPVWSGFju6T1LxFMw2YbmDxORilWLZHlyMSwgPpJqz9xhu2p0xHZjduvGjpWzXtPPpPuFMrccy1CC26CE5bdqG0oFnFV2wfe5V2Fz94jwdDgdmn9W/s1600/2018-05-01+0860+%25E7%25A8%25B2%25E6%25AF%259B%25E9%2599%25B8%25E6%25A9%258B.JPG",
+        topOrBottom: "bottom",
+        left: "-125px",
+        skewX: "-30deg",
+        caption: encodeURI("左上に写っているのが稲毛陸橋。昔はこの崖の下から海が続いていた。")
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+      i++;
+      photos[i] = {
+				position: new google.maps.LatLng( 35.635250, 140.080594 ), 
+        text: "稲毛浅間神社　一の鳥居",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQRvu6099OFrKghLkv6iwC3cdNK5O4RiZZEOPSr95qIIhaAySswuu5wPEcZdUSDIbSV_aJLD0njtaIlF9cCGBEdAuHzbMipuF2M0yN4bnv6VJlDHBwGkhMzFhUG3lEAairyiiZNJHtDxic/s1600/2018-05-01+0868+%25E7%25A8%25B2%25E6%25AF%259B%25E6%25B5%2585%25E9%2596%2593%25E7%25A5%259E%25E7%25A4%25BE.JPG",
+        topOrBottom: "top",
+        left: "10px",
+        skewX: "-30deg",
+        caption: encodeURI("国道14号の海側にある。昔は海中に立っていた。")
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+      i++;
+      photos[i] = {
+				position: new google.maps.LatLng( 35.649350, 140.060772 ), 
+        text: "花見川",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbD-axabIyarRPzHwgbhzq3GGaUi81-QQJJA7RL2KSwFnK_1_9LJKFHkUvzvvLnYVii-Q_4blVP_WzPUaG4_JkdFQePmDDMUi1TdUE83ukatY1Isok2zKqadgDUz4gSFV8JDS7me5_up2F/s1600/2018-05-01+0872+%25E8%258A%25B1%25E8%25A6%258B%25E5%25B7%259D.JPG",
+        topOrBottom: "bottom",
+        left: "-125px",
+        skewX: "-30deg",
+        caption: encodeURI("花見川。河川改修後の旧河口。青い橋は国道14号（千葉街道）。橋の手前は埋め立て後の川筋。")
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+      i++;
+      photos[i] = {
+				position: new google.maps.LatLng( 35.651577, 140.060758 ), 
+        text: "花見川",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixQf86vHLmxS8p_NWA_7qgG3sSQTMMgFIQ78MRBR-C2yGi9Cl3hsuZqwRVudXfASsPUWF3F7-CtPGS0IO59ZCabHJsSJF6dL2m2yrw0e9DSpCBWzApLpXaPz1Vl88oi2hGFmrorCa63MxA/s1600/2018-05-01+0875+%25E8%258A%25B1%25E8%25A6%258B%25E5%25B7%259D.JPG",
+        topOrBottom: "top",
+        left: "10px",
+        skewX: "-30deg",
+        caption: encodeURI("花見川。磯部新田公園より撮影。対岸左手が河川改修前の旧河口。青い橋は国道14号（千葉街道）。")
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+      i++;
+      photos[i] = {
+				position: new google.maps.LatLng( 35.654841, 140.057738 ), 
+        text: "幕張",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfZFL3Pzd-Fjb4Dbf5Pm25MWiQ5yuVXRhYTCIDAid22syuu7H5VfG4LjHbGT8MAnSNZfB9VegVpESOza7DulIXXoq8iBT7YKfyp_pSgDu91LJCOMCNy2hje5lOjzzhqwAVY3aa7EvAkG-D/s1600/2018-05-01+0876+%25E5%25B9%2595%25E5%25BC%25B5.JPG",
+        topOrBottom: "bottom",
+        left: "-125px",
+        skewX: "-30deg",
+        caption: encodeURI("北東に向かって緩やかな登りになっている。このあたりは海食崖ではない。<br>海（手前側）に降りていく道だった。")
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+      i++;
+      photos[i] = {
+				position: new google.maps.LatLng( 35.655580, 140.056650 ), 
+        text: "幕張",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUxnmIbybASbxRZCP0Q8MFw31V6WRPcPXfJv-KveogYsog6Y9QcGCzd4iEQZl8VkucOo-wTEz4UivCbnCMzq9yiD9HKnZbxKonTDXuY6V0dy5dxlmVYOvPKmgav3FLP6wR4M-fR2iZwnt_/s1600/2018-05-01+0877+%25E5%25B9%2595%25E5%25BC%25B5.JPG",
+        topOrBottom: "top",
+        left: "10px",
+        skewX: "-30deg",
+        caption: encodeURI("写真を撮った場所が旧海岸線。北東に向かって緩やかな登りになっている。このあたりは海食崖ではない。")
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+      i++;
+      photos[i] = {
+				position: new google.maps.LatLng( 35.656944, 140.054734 ), 
+        text: "幕張",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7ToGR5-w8l8rI94Tm7-aw8kkOTAhqMM3zvHXg_RYzx8uzMTOt1EZKdTFUI3hW0_JeBpAD7WVGR4YIogyuYn2YyXSIX3eNajSKnxWYbch_aeStsxkxfKY69jB5xG6otGFT45jZK9VZ66wG/s1600/2018-05-01+0878+%25E5%25B9%2595%25E5%25BC%25B5.JPG",
+        topOrBottom: "bottom",
+        left: "-125px",
+        skewX: "-30deg",
+        caption: encodeURI("旧海岸線から撮影。信号のある交差点が旧千葉街道。ここも北東に向かって緩やかな登りになっている。")
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+      i++;
+      photos[i] = {
+				position: new google.maps.LatLng( 35.659188, 140.057097 ), 
+        text: "幕張大通り",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmtogBaCDALxnmWxu2QGFwn2GPT5YphQl0de0u4xbMbxCad1CizckFu5KBAGp8G1pSkrz1lK28QfnLSlbgVFhSXXSZSJC6pvuu6UgTj4HbXesW7qZoeVFqxy69p9SLMfbVYym78iK-Ds9H/s1600/2018-05-01+0880+%25E5%25B9%2595%25E5%25BC%25B5%25E5%25B9%2595%25E5%25BC%25B5%25E9%25A7%2585%25E5%2589%258D.JPG",
+        topOrBottom: "top",
+        left: "10px",
+        skewX: "-30deg",
+        caption: encodeURI("幕張大通り。海側方向を撮影。")
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+      i++;
+      photos[i] = {
+				position: new google.maps.LatLng( 35.661022, 140.045175 ), 
+        text: "浜田川",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6OFuMFC6fafHAQ7PVEJINR8jday2rCJSpBna0Ionq0UX9ChcdaX-yY0hj6JqF-u3p2sf2lXO6p0KEkQUHulYUYwEwuvvbZkLSYKZkL41OGtDsYzhhP6ESO1LKxMLwAoID1keVCZjU-Pt7/s1600/2018-05-01+0882+%25E6%25B5%259C%25E7%2594%25B0%25E5%25B7%259D.JPG",
+        topOrBottom: "bottom",
+        left: "-125px",
+        skewX: "-30deg",
+        caption: encodeURI("浜田川旧河口付近。国道14号の下流側。ここから下流が埋め立てに伴い新しくできた川筋。")
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+      i++;
+      photos[i] = {
+				position: new google.maps.LatLng( 35.661686, 140.046080 ), 
+        text: "浜田川",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizigs6r0fa6Q6hDq7P9VcUqR-K-Zhz8VrHYH5g-ToLS5BN-mNqmn_-D9LTMXObb3tsA0mWhLy0CpwDcildlwaxAm6oulstnABsBbHJbxUlBPUKElTvOnVOxlpRGOtPvVVBI5MWPWyTuFhK/s1600/2018-05-01+0883+%25E6%25B5%259C%25E7%2594%25B0%25E5%25B7%259D.JPG",
+        topOrBottom: "top",
+        left: "10px",
+        skewX: "-30deg",
+        caption: encodeURI("浜田川旧河口付近。国道14号の上流側。埋めたて前の川筋。")
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+      i++;
+      photos[i] = {
+				position: new google.maps.LatLng( 35.671397, 140.032513 ), 
+        text: "鷺沼",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihYybN-ksavAMC9eiz6Ac1YV1clw-ODMs5ROTfDTaSL6z0NjbPZXZCJlaKT1cnJkLhP1BT5wFUKnFXJbHipMUOTFAph7ZdOvI_74UEs80lSqJWur3s0s8I0KP0BIW3_0CIch-8B_cHB3Wg/s1600/2018-05-01+0896+%25E9%25B7%25BA%25E6%25B2%25BC.JPG",
+        topOrBottom: "top",
+        left: "10px",
+        skewX: "-30deg",
+        caption: encodeURI("鷺沼(北東側)。今も海岸段丘上の原風景が残っている。")
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+      i++;
+      photos[i] = {
+				position: new google.maps.LatLng( 35.671397, 140.032513 ), 
+        text: "鷺沼",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbUcZkgVv7Yi5R1CTpMBcUj_mjHTlKmg_q46xKsE34uS-okRMIAPXT8q6QLxoZ_Qen1UYswVZVYEa5s0dwxIisWuzMz2cMNqKnQ3C95dXwmOxOCYbmodyzPgIv09k9EdnleV-1RuU251Y8/s1600/2018-05-01+0897+%25E9%25B7%25BA%25E6%25B2%25BC.JPG",
+        topOrBottom: "bottom",
+        left: "-125px",
+        skewX: "-30deg",
+        caption: encodeURI("鷺沼(南西側)。海食崖になっていて、その下は海が見渡せたはず。今は埋め立てられてしまい、海岸線は遠くて見えない。")
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+      i++;
+      photos[i] = {
+				position: new google.maps.LatLng( 35.671769, 140.031588 ), 
+        text: "鷺沼",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghDHKVaXlm1NX9IUtfAT6upEDC47U1VPCW0ng-zzQlVA9TSJIcvDNkGr3cbV2_xnCxUuScioYL6vb-QTNY2UOEg5k4fuLkRj9DHUFA4nsABR1LQkKPeqJcPyKKha5kjLxNtLhyXaS3ZlS8/s1600/2018-05-01+0898+%25E9%25B7%25BA%25E6%25B2%25BC.JPG",
+        topOrBottom: "top",
+        left: "10px",
+        skewX: "-30deg",
+        caption: encodeURI("海食崖を降りて行く道。")
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+      i++;
+      photos[i] = {
+				position: new google.maps.LatLng( 35.677491, 140.011133 ), 
+        text: "谷津干潟",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYbbtRfWgUTOlE2UD-ne4TA7MaO7VeEFxdXMJHmoM2yvx2cvUWE6ybCscKJ_5NPQXiJQakvOiuKeQoUjY9XnDZ9mxkE_zHns970XMrjCbikYxbgdwKsh7bIRoWSlT7GeDPVImCVTtElHAB/s1600/2018-05-01+0900+%25E8%25B0%25B7%25E6%25B4%25A5%25E5%25B9%25B2%25E6%25BD%259F.JPG",
+        topOrBottom: "bottom",
+        left: "-125px",
+        skewX: "-30deg",
+        caption: encodeURI("谷津干潟。昔の干潟が残っている。")
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+      i++;
+      photos[i] = {
+				position: new google.maps.LatLng( 35.679238, 140.007166 ), 
+        text: "谷津干潟",
+        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUJag1awVY44sk4J6QvJ8DrtswYKyftvpqIFggirwmcO1yzDb3JdJQCPWNM25Mtl0EOnAROm9CxHiATo_ueqzCLfSRhhvcH2gkD4Ebwpa3hGLf7F4MoiKm8mgZmDJ7bt0wJx53xWsq_WT_/s1600/2018-05-01+0901+%25E8%25B0%25B7%25E6%25B4%25A5%25E5%25B9%25B2%25E6%25BD%259F.JPG",
+        topOrBottom: "top",
+        left: "10px",
+        skewX: "-30deg",
+        caption: encodeURI("谷津干潟。谷津遊園があった場所からの撮影。向こう岸は埋め立てられてしまっている。")
+      }
+      photos[i].url = "photo.html?src=" + photos[i].src
+                     + "&caption=" + photos[i].caption;
+
+
+
+
+
+
+      $(function(){
+
+      });
+
+      function initMap() {
+
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 13,
+          center: {lat: 35.643822, lng: 140.068231},
+          mapTypeId: 'satellite'
+        });
+
+// 航空写真のオーバーレイ化
+        for (var i = 0; i < overlays.length; i++) {
+          overlays[i].overlay = new google.maps.GroundOverlay(
+            overlays[i].srcImage, 
+            overlays[i].bounds, 
+            { opacity: 1.0,
+              clickable: false 
+          });
+          overlays[i].overlay.setMap(map);
+        }
+
+// 写真のオーバーレイ化
+        for (var i = 0; i < photos.length; i++) {
+          photos[i].overlay = new GMOverlayHtml({
+            position: photos[i].position,
+            $content: create$content({
+              text: photos[i].text,
+              src: photos[i].src,
+              topOrBottom: photos[i].topOrBottom,
+              left: photos[i].left,
+              skewX: photos[i].skewX,
+              url: photos[i].url
+            })
+          });
+          photos[i].overlay.setMap(map);
+        }
+
+        $("#opacity").change(function() { redraw(); });
+
+      }
+
+      var create$content = function (opts) {
+
+        var balloonColor = "cornsilk";
+
+        var defaults = {
+          topOrBottom: "bottom",
+          left: "-10px",
+          skewX: "0deg",
+          text: "新宿",
+          src: "https://live.staticflickr.com/968/40266504040_e38a3b5f39_t.jpg",
+          url: "miyakogawa.html"
+        };
+
+        $.extend( true, this, defaults, opts );
+
+        if ( topOrBottom === "top" ) {
+
+          var $content = 
+            $("<div></div>").append(
+              $("<div></div>").css({
+                position: "absolute",
+                bottom: "-50px",
+                left: "-10px",
+                width: "0",
+                height: "0",
+                borderLeft: "10px solid transparent",
+                borderRight: "10px solid transparent",
+                borderTop: "50px solid " + balloonColor,
+                borderBottom: "50px solid transparent",
+                transform: "skewX(" + this.skewX + ")"
+              })).append(
+              $("<div></div>").css({
+                  bottom: "50px",
+                  left: this.left,
+                  position: "absolute",
+                  padding: "5px",
+                  background: balloonColor,
+                  borderRadius: "2px",
+              }).append(
+                $("<p></p>", { 
+                  text: this.text 
+                }).css({
+                  padding: "0px",
+                  margin: "0px"
+                })
+              ).append(
+                $("<img>", {
+                  src: this.src
+                }).css({
+				width: "200px",
+                height: "auto",})
+              ).simplyModal({
+                  url: this.url,
+                  modalClass: "modal"
+              }).css({cursor: "pointer"})
+            );
+
+        } else {
+          var $content = 
+            $("<div></div>").append(
+              $("<div></div>").css({
+                content: "",
+                position: "absolute",
+                top: "-50px",
+                left: "-10px",
+                width: "0",
+                height: "0",
+                borderLeft: "10px solid transparent",
+                borderRight: "10px solid transparent",
+                borderTop: "50px solid transparent",
+                borderBottom: "50px solid " + balloonColor,
+                transform: "skewX(" + this.skewX + ")"
+              })).append(
+              $("<div></div>").css({
+                  display: "inline-block",
+                  top: "50px",
+                  left: this.left,
+                  position: "absolute",
+                  padding: "5px",
+                  background: balloonColor,
+                  borderRadius: "2px",
+              }).append(
+                $("<p></p>", { 
+                  text: this.text 
+                }).css({
+                  padding: "0px",
+                  margin: "0px"
+                })
+              ).append(
+                $("<img>", {
+                  src: this.src
+                }).css({
+				width: "200px",
+                height: "auto",})
+              ).simplyModal({
+                  url: this.url,
+                  modalClass: "modal"
+              }).css({cursor: "pointer"})
+            );
+        }
+
+        return $content;
+
+      }
+
+      var toggle = function() {
+      
+        for (var i = 0; i < overlays.length; i++) {
+          if (overlays[i].overlay.getMap()) {
+            overlays[i].overlay.setMap(null);
+          } else {
+            overlays[i].overlay.setMap(map);
+          }
+        }
+
+      };
+
+      var togglePhotos = function() {
+      
+        for (var i = 0; i < photos.length; i++) {
+          if (photos[i].overlay.getMap()) {
+            photos[i].overlay.setMap(null);
+          } else {
+            photos[i].overlay.setMap(map);
+          }
+        }
+
+      };
+
+      var redraw = function() {
+
+        for (var i = 0; i < overlays.length; i++) {
+          overlays[i].overlay.setMap(null);
+          opacity = Number($("#opacity").val())/100;
+          overlays[i].overlay = new google.maps.GroundOverlay(
+            overlays[i].srcImage, 
+            overlays[i].bounds, 
+            { opacity: opacity 
+            });
+          overlays[i].overlay.setMap(map);
+        }
+
+      };
+
+      var toggleDoc = function() {
+
+        if ($("#doc span").is(':visible')) {
+            $("#doc span").hide();
+        } else {
+            $("#doc span").show();
+        }
+
+      };
+
+
+      google.maps.event.addDomListener(window, 'load', initMap);
+
+    </script>
+  </head>
+  <body>
+<!-- Add an input button to initiate the toggle method on the overlay. -->
+
+    <div id="map"></div>
+
+    <div id="title">千葉の旧海岸線</div>
+
+    <div id="doc">
+      <span>
+      <img src="../_img/closeButton.png" onclick="toggleDoc();"><br/>
+      　千葉から東京にかけての東京湾沿岸は、かつては遠浅で広大な干潟が広がっていたが、
+      昭和30年代に始まった埋め立てによりなくなってしまった。<br/>
+      　このページには、旧海岸線を歩いてその痕跡を写した写真を掲載している。
+      </span>
+
+    </div>
+
+    <div id="floating-panel">
+      <p>
+      説明文：<input type="button" value="表示/非表示" onclick="toggleDoc();"></input>
+      </p>
+      <p>
+      昔の航空写真：<input type="button" value="表示/非表示" onclick="toggle();"></input>
+      &nbsp&nbsp透明度<input id="opacity" type="range" value="100"></input>
+      </p>
+      <p>
+      写真：<input type="button" value="表示/非表示" onclick="togglePhotos();"></input>
+      </p>
+    
+
+
+    </div>
+
+  </body>
+</html>
