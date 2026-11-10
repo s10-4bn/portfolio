@@ -1,0 +1,47 @@
+@charset "UTF-8";
+ /*要素のフォントサイズやマージン・パディングをリセット*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, pre,
+img, small, strong, sub, sup, var,
+dl, dt, dd, ol, ul, li,
+table, caption, tbody, tfoot, thead, tr, th, td,
+audio, video, figure {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+ 
+body {
+    line-height:140%;
+}
+ 
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+ 
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+ 
+hr {
+    display:block;
+    height:1px;
+    border:0; 
+    border-top:1px solid #cccccc;
+    margin:0;
+    padding:0.5rem;
+}
+ 
+input, select {
+    vertical-align:middle;
+}
+

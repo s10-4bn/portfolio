@@ -1,0 +1,33 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+/*reset後のCSSの基本設定*/
+
+/* デフォルトの16pxの代わりに、1emが10pxになるように調整する (16px * 0.625 = 10px) */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font: normal 1em "Noto Sans JP",sans-serif;
+  font-size: 1.6em; /* bodyのフォントサイズを16pxにする */
+/*  margin: 0.5rem 1rem 0.5rem 1rem; */
+}
+
+h1 {
+  font: bold 3.2rem "Noto Sans JP",sans-serif;
+}
+h2 {
+  font: bold 2.4rem "Noto Sans JP",sans-serif;
+}
+h3 {
+  font: bold 2.0rem "Noto Sans JP",sans-serif;
+}
+h4 {
+  font: bold 1.6rem "Noto Sans JP",sans-serif;
+}
+
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
+

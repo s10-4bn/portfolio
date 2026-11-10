@@ -1,0 +1,276 @@
+﻿html, body {
+	background-color: white; 
+	height:		100%;
+	margin:	0px;
+	padding: 0px;
+	overflow:	hidden;
+}
+
+#header {
+	background-color: white;
+	margin:	0px;
+	padding: 0px;
+	width:		700px;
+	float: left;
+}
+
+#buttons {
+	background-color: white;
+	margin:	0px;
+	padding: 0px;
+	width:		400px;
+	float: left;
+}
+
+#contents {
+	width:		100%;
+	height:		100%;
+	margin:	0px;
+	padding: 0px;
+	overflow:	auto;
+	background-color: #F7F7F7;
+}
+
+td {
+	vertical-align: top;
+    font: 15px arial,sans-serif;
+}
+
+#photo_table {
+	table-layout:fixed;
+	border-collapse: separate;
+	border-spacing: 5px 20px;
+}
+
+
+
+.td_img {
+	text-align: center;
+	text-valign: top;
+	width: 100px;
+	margin:	0px;
+}
+
+.td_txt {
+	width: 350px;
+}
+
+.td_txt a{
+	font: bold 18px arial,sans-serif; 
+	text-decoration: none;
+	color: #0063DC; 
+	text-align: left;  
+   	margin: 0px;
+	text-valign: top;
+}
+
+.td_txt a[onclick]:hover{
+	font: bold 18px arial,sans-serif; 
+	color: #FFFFFF; 
+	background-color: #0063DC;
+}
+
+.header_caption a{
+	font: bold 18px arial,sans-serif; 
+	text-decoration: none;
+	color: #0063DC; 
+	text-align: left;  
+   	margin: 0px;
+	text-valign: top;
+}
+
+.header_caption a[onclick]:hover{
+	font: bold 18px arial,sans-serif; 
+	color: #FFFFFF; 
+	background-color: #0063DC;
+}
+
+.CollectionList {
+	float:	left;
+   	margin: 10px;
+}
+
+.CollectionList a{
+	font: bold 18px arial,sans-serif; 
+	color: #0063DC; 
+	text-align: left;  
+   	margin: 0px;
+	text-valign: top;
+	width: 350px;
+	cursor:	pointer;
+}
+
+.CollectionList a[onclick]:hover{
+	font: bold 18px arial,sans-serif; 
+	color: #FFFFFF; 
+	background-color: #0063DC;
+	text-align: left;  
+   	margin: 0px;
+	text-valign: top;
+	width: 350px;
+}
+
+.CollectionList img{
+   	border: 1px solid black;
+   	margin: 0px;  
+}
+
+.CollectionList img[onclick]:hover{
+   	border: 1px solid black;
+   	margin: 0px;  
+	cursor:	pointer;
+}
+
+#title, h1 {
+	font: bold 32px arial,sans-serif;
+    text-align: left;  
+	color: #0063DC;
+   	margin: 0px;
+} 
+
+.title {
+	font: bold 32px arial,sans-serif;
+    text-align: left;  
+	color: #0063DC;
+   	margin: 0px;
+} 
+
+img {
+	max-height: 480px;
+	max-width:	480px;
+}
+
+.header_caption {
+   	text-align: left; 
+   	margin: 10px;  
+	font: 14px arial,sans-serif;
+   	color: black; 
+}
+
+.link_ref {
+	font: bold 15px arial,sans-serif;
+   	text-align: right;
+   	margin: 5px;
+}
+
+.link_ref a {  
+	text-decoration: none;
+    font: bold 15px arial,sans-serif;
+	color: #0063DC;
+   	margin: 5px; 
+}
+
+.link_ref a:hover {  
+	color: white;
+	background: #0063DC;
+	cursor:		pointer;
+}
+
+.buttons {
+	font: bold 15px arial,sans-serif;
+   	text-align: left;
+   	margin: 5px;
+}
+
+.buttons a {  
+	text-decoration: none;
+    font: bold 15px arial,sans-serif;
+	color: #0063DC;
+   	margin: 5px; 
+}
+
+.buttons a:hover {  
+	color: white;
+	background: #0063DC;
+	cursor:		pointer;
+}
+
+#CollectionTree a{
+	font: bold 20px arial,sans-serif; 
+	color: #0063DC; 
+	text-align: left;  
+   	margin: 0px;
+} 
+
+#CollectionTree a[onclick]:hover{
+	cursor: pointer;
+	font: bold 20px arial,sans-serif; 
+	color: #FFFFFF; 
+	background-color: #0063DC; 
+	text-align: left;  
+   	margin: 0px;
+} 
+
+#CollectionTitle a{
+	font: bold 28px arial,sans-serif; 
+	color: #0063DC; 
+	text-align: left;  
+   	margin: 10px;
+} 
+
+.imagebox {
+   	float: left;
+   	margin: 0px;  
+	min-height:	430px;
+}
+
+.image {
+	clear: left;
+   	text-align: left; 
+   	margin: 0px 5px;     
+}
+
+.photo_title {
+   	text-align: left; 
+   	margin: 5px;  
+	font: bold 14px arial,sans-serif;
+   	color: black; 
+	max-width: 400px;
+}
+
+.photo_caption {
+   	text-align: left; 
+   	margin: 5px;  
+	font: 14px arial,sans-serif;
+   	color: black; 
+	max-width: 400px;
+}
+
+.photo_image {
+   	border: 1px solid black;
+   	margin: 0px;  
+}
+
+.nomap {  
+	float: left;
+	text-decoration: none;
+    font: bold 14px arial,sans-serif;
+	color: gray;
+   	margin: 0px 5px; 
+}
+
+.photo_date {
+	font: 14px arial,sans-serif;
+	float: left;
+	color: dimgray;
+   	margin: 0px 5px;
+}
+
+.thickbox {  
+	clear: both;
+	text-decoration: none;
+    font: bold 14px arial,sans-serif;
+	color: #0063DC;
+   	margin: 0px 5px; 
+}
+
+.thickbox:hover {  
+	color: white;
+	background: #0063DC;
+}
+
+#list {
+	width:		100%;
+	height:		100%;
+	overflow:	auto;
+}
