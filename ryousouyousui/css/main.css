@@ -1,0 +1,321 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+/* ã§í  */
+
+body {
+    font-family: "Noto Sans JP";
+    background-color: lightsteelblue;
+}
+
+#container {
+	width			: 960px;
+	text-align		: left;
+	margin			: 0 auto;
+	padding		: 0px;
+	background : azure;
+}
+
+#header {
+    text-align: center;
+    font: bold 400% "Noto Sans JP",arial,sans-serif;
+    color: mediumblue;
+    width: 960px;
+    height: 340px;
+    background-image: url(../img/kouhei.jpg);
+}
+
+#title {
+    margin:     40px;
+    text-align: center;
+    font: bold 200% "Noto Sans JP",arial,sans-serif;
+    color: mediumblue;
+	background : #66CCFF;
+}
+
+#abstract {
+	margin:      20px 50px 20px 50px;
+    text-align: left;
+    font: normal 100% "Noto Sans JP",arial,sans-serif;
+    color: black;
+}
+
+#abstract p {
+	margin:      5px 0px 0px 0px;
+}
+
+
+.caption {
+    font: bold 100% "Noto Sans JP",arial,sans-serif;
+}
+
+#reference {
+    padding: 5px;
+}
+
+#reference p {
+    margin: 5px;
+    font: nomal 100% "Noto Sans JP",arial,sans-serif;
+	color: black;
+}
+
+#reference a {
+    margin: 5px;
+	text-decoration: none;
+    font: nomal 100% "Noto Sans JP",arial,sans-serif;
+	color: black;
+}
+
+
+
+
+/* Home */
+
+.figure-right {
+    float: right;
+    padding: 0.5em;
+    max-width: 460px;
+}
+.figure-right img{
+    max-width: 100%;
+}
+.figure-right figcaption {
+    font-weight: bold; 
+    text-align: center;
+}
+
+.figures {
+    padding: 10px;
+    width: 940px;
+    display: table;
+    table-layout: fixed;
+}
+.figures figure {
+    display: table-cell;
+    width: 470px;
+    text-align: center;
+}
+.figures img{
+    max-width: 95%;
+}
+.figures figcaption {
+    font-weight: bold; 
+    text-align: center;
+}
+
+.story {
+	margin:      20px;
+    text-align: left;
+    font: normal 100% "Noto Sans JP",arial,sans-serif;
+    color: black;
+}
+.story p {
+	padding:      5px 0px 0px 0px;
+}
+
+.history {
+    padding: 5px 0px 0px 0px;
+    position: center; 
+    width: 900px;
+    display: table;
+    table-layout: fixed;
+}
+
+.year {
+    display: table-cell;
+    text-align: left;
+    width: 300px;
+}
+
+.event {
+    display: table-cell;
+    text-align: left;
+
+}
+
+
+/* óºëçópêÖÇÃó∑ */
+
+#west {
+    padding: 30px;
+    text-align: center;
+    font: bold 200% "Noto Sans JP",arial,sans-serif;
+    color: mediumblue;
+}
+
+#end {
+    padding: 30px;
+    text-align: center;
+    font: bold 200% "Noto Sans JP",arial,sans-serif;
+    color: mediumblue;
+}
+
+.tunnel {
+    display: table-cell;
+    padding: 0px 0px;
+    text-align: center;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    background : black;
+}
+.tunnel p{
+    font: bold 200% "Noto Sans JP",arial,sans-serif;
+    color: white;
+    background : black;
+}
+.tunnel a{
+    font: bold 100% "Noto Sans JP",arial,sans-serif;
+    color: white;
+    background : black;
+}
+
+.siphon {
+    display: table-cell;
+    padding: 0px 0px;
+    text-align: center;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+.siphon p{
+    font: bold 200% "Noto Sans JP",arial,sans-serif;
+    color: white;
+    background : grey;
+}
+
+.table-canal {
+  position: center; 
+  width: 960px;
+  display: table;
+  table-layout: fixed;
+}
+.table-canal img {
+    max-width: 460px;
+}
+
+.table-edge-1 {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border: 0px solid black;
+    width: 15px;
+    background-color: aqua;
+}
+
+.table-edge-n {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border: 0px solid black;
+    width: 15px;
+    background-color: dodgerblue;
+}
+
+.table-edge-river {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border: 0px solid black;
+    width: 15px;
+    background-color: powderblue;
+}
+
+.table-edge-2 {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border: 0px solid black;
+    width: 15px;
+    background-color: aqua;
+}
+
+.table-edge-s {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border: 0px solid black;
+    width: 15px;
+    background-color: powderblue;
+}
+
+.table-edge-w {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border: 0px solid black;
+    width: 15px;
+    background-color: aqua;
+}
+
+.table-left {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 465px;
+}
+
+.table-center {
+    display: table-cell;
+    text-align: center;
+    width: 930px;
+}
+
+.table-right {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 465px;
+}
+
+
+/* ñ¡î’ */
+
+.table-plate {
+    margin-left: auto;
+    margin-right: auto;
+    width: 920px;
+}
+.table-plate thead {
+    background-color: #CCFFFF;
+}
+.table-plate thead th {
+    border: 1px solid black;
+    width: 120px;
+    text-align: center;
+    vertical-align: middle;
+}
+.table-plate thead td {
+    text-align: center;
+    border: 1px solid black;
+    width: 400px;
+}
+.table-plate tbody th {
+    border: 1px solid black;
+    width: 120px;
+    text-align: center;
+    vertical-align: middle;
+}
+.table-plate tbody td {
+    text-align: center;
+    border: 1px solid black;
+    width: 400px;
+}
+.table-plate img {
+    text-align: center;
+    vertical-align: middle;
+    max-width: 400px;
+    max-height: 200px;
+}
+
+
+/* ínê} */
+
+#map-header {
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 960px;
+}

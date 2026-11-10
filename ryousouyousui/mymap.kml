@@ -1,0 +1,1546 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>両総用水</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>両総用水</name>
+			<Placemark>
+				<name>第１排水機場</name>
+				<styleUrl>#icon-503-4186F0-nodesc</styleUrl>
+				<Point>
+					<coordinates>140.487805,35.905854,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>第２排水機場</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>140.52485,35.900651,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>吐水槽（第１揚水機場）</name>
+				<styleUrl>#icon-124-nodesc</styleUrl>
+				<Point>
+					<coordinates>140.487837,35.895601,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>多古円筒分水</name>
+				<styleUrl>#icon-124-nodesc</styleUrl>
+				<Point>
+					<coordinates>140.466276,35.715229,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>栗山川統合機場</name>
+				<styleUrl>#icon-124-nodesc</styleUrl>
+				<Point>
+					<coordinates>140.469708,35.699943,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>横芝堰</name>
+				<styleUrl>#icon-124-nodesc</styleUrl>
+				<Point>
+					<coordinates>140.503008,35.6552,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>第２揚水機場</name>
+				<styleUrl>#icon-124-nodesc</styleUrl>
+				<Point>
+					<coordinates>140.472543,35.682817,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>吐水槽（第２揚水機場）</name>
+				<styleUrl>#icon-124-nodesc</styleUrl>
+				<Point>
+					<coordinates>140.463826,35.676019,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>第３揚水機場</name>
+				<styleUrl>#icon-124-nodesc</styleUrl>
+				<Point>
+					<coordinates>140.38793,35.601041,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>吐水槽（第３揚水機場）</name>
+				<styleUrl>#icon-124-nodesc</styleUrl>
+				<Point>
+					<coordinates>140.388193,35.599139,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>田中分水口</name>
+				<styleUrl>#icon-124-nodesc</styleUrl>
+				<Point>
+					<coordinates>140.335952,35.556496,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>山口分水口</name>
+				<styleUrl>#icon-124-nodesc</styleUrl>
+				<Point>
+					<coordinates>140.332666,35.552445,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>榎・滝之口分水口</name>
+				<styleUrl>#icon-124-nodesc</styleUrl>
+				<Point>
+					<coordinates>140.30095,35.49316,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>旧第３揚水機場跡</name>
+				<styleUrl>#icon-124-nodesc</styleUrl>
+				<Point>
+					<coordinates>140.2827421,35.4619108,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>１号トンネル</name>
+				<styleUrl>#line-C6A4CF-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.487714,35.895517,0.0 140.486866,35.894282,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>２号トンネル</name>
+				<styleUrl>#line-C6A4CF-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.486094,35.893205,0.0 140.485611,35.892527,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>３号トンネル</name>
+				<styleUrl>#line-C6A4CF-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.485525,35.892005,0.0 140.485595,35.891501,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>４号トンネル</name>
+				<styleUrl>#line-C6A4CF-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.485729,35.890715,0.0 140.485906,35.889667,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>５号トンネル</name>
+				<styleUrl>#line-C6A4CF-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.486292,35.887536,0.0 140.486418,35.886781,0.0 140.486416,35.886808,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>６号トンネル</name>
+				<styleUrl>#line-C6A4CF-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.486552,35.886019,0.0 140.486453,35.886558,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>７号トンネル</name>
+				<styleUrl>#line-C6A4CF-12-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.487987,35.8828,0.0 140.489058,35.881557,0.0 140.48906,35.879484,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>８号トンネル</name>
+				<styleUrl>#line-C6A4CF-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.489066,35.877367,0.0 140.489063,35.876722,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>９号トンネル</name>
+				<description><![CDATA[http://blogs.yahoo.co.jp/kyodain/10074291.html]]></description>
+				<styleUrl>#line-C6A4CF-11</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.487687,35.871677,0.0 140.487188,35.870869,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>１０号トンネル</name>
+				<description><![CDATA[http://blogs.yahoo.co.jp/kyodain/10083924.html]]></description>
+				<styleUrl>#line-C6A4CF-11</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.487073,35.870638,0.0 140.486719,35.870047,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>１１号トンネル</name>
+				<description><![CDATA[http://blogs.yahoo.co.jp/kyodain/10083924.html<br>http://blogs.yahoo.co.jp/kyodain/10095560.html]]></description>
+				<styleUrl>#line-C6A4CF-12</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.485884,35.868669,0.0 140.486249,35.866582,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>１２号トンネル</name>
+				<description><![CDATA[http://blogs.yahoo.co.jp/kyodain/10095560.html]]></description>
+				<styleUrl>#line-C6A4CF-11</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.487574,35.8634,0.0 140.486459,35.8655,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>１３号トンネル</name>
+				<description><![CDATA[http://blogs.yahoo.co.jp/kyodain/10117204.html]]></description>
+				<styleUrl>#line-C6A4CF-12</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.487794,35.862957,0.0 140.487971,35.862661,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>１４号トンネル</name>
+				<description><![CDATA[http://blogs.yahoo.co.jp/kyodain/10117204.html<br>http://blogs.yahoo.co.jp/kyodain/10122124.html]]></description>
+				<styleUrl>#line-C6A4CF-11</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.489066,35.860579,0.0 140.489387,35.856379,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>１５号トンネル</name>
+				<description><![CDATA[http://blogs.yahoo.co.jp/kyodain/10122124.html]]></description>
+				<styleUrl>#line-C6A4CF-12</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.490377,35.853122,0.0 140.490002,35.853542,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>１６号トンネル</name>
+				<description><![CDATA[http://blogs.yahoo.co.jp/kyodain/10172191.html]]></description>
+				<styleUrl>#line-C6A4CF-11</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.491308,35.85204,0.0 140.491941,35.851353,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>１７号トンネル</name>
+				<description><![CDATA[http://blogs.yahoo.co.jp/kyodain/10172191.html<br>http://blogs.yahoo.co.jp/kyodain/10177592.html]]></description>
+				<styleUrl>#line-C6A4CF-12</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.492284,35.849848,0.0 140.492327,35.849439,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>１８号トンネル</name>
+				<description><![CDATA[http://blogs.yahoo.co.jp/kyodain/10177592.html<br>http://blogs.yahoo.co.jp/kyodain/10186901.html]]></description>
+				<styleUrl>#line-C6A4CF-11</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.492464,35.849146,0.0 140.492528,35.848833,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>１９号トンネル</name>
+				<description><![CDATA[http://blogs.yahoo.co.jp/kyodain/10186901.html<br>http://blogs.yahoo.co.jp/kyodain/10195740.html]]></description>
+				<styleUrl>#line-C6A4CF-12</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.492596,35.848652,0.0 140.493304,35.84628,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>２０号トンネル</name>
+				<description><![CDATA[http://blogs.yahoo.co.jp/kyodain/10195740.html<br>http://blogs.yahoo.co.jp/kyodain/10198064.html]]></description>
+				<styleUrl>#line-C6A4CF-11</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.489977,35.841126,0.0 140.487563,35.832802,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>２１号トンネル</name>
+				<description><![CDATA[両総用水（その施設と維持管理の概要）]]></description>
+				<styleUrl>#line-C6A4CF-10</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.461675,35.675775,0.0 140.462802,35.676298,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>２２号トンネル</name>
+				<styleUrl>#line-C6A4CF-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.461305,35.675592,0.0 140.460296,35.6751,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>２３号トンネル？</name>
+				<styleUrl>#line-C6A4CF-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.455098,35.668541,0.0 140.454605,35.667251,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>２４号トンネル</name>
+				<description><![CDATA[http://s104bn.blogspot.jp/2016/09/blog-post.html]]></description>
+				<styleUrl>#line-C6A4CF-11</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.451983,35.661908,0.0 140.452152,35.662804,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>２５号トンネル</name>
+				<description><![CDATA[http://s104bn.blogspot.jp/2016/09/blog-post.html]]></description>
+				<styleUrl>#line-C6A4CF-11</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.451823,35.661056,0.0 140.451705,35.660487,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>２６号トンネル</name>
+				<styleUrl>#line-C6A4CF-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.451579,35.657222,0.0 140.450404,35.65523,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>２７号トンネル</name>
+				<styleUrl>#line-C6A4CF-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.449895,35.653365,0.0 140.449825,35.652445,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>２８号トンネル？</name>
+				<styleUrl>#line-C6A4CF-12-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.449758,35.651819,0.0 140.449699,35.651094,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>２９号トンネル？</name>
+				<styleUrl>#line-C6A4CF-12-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.449744,35.650553,0.0 140.449744,35.648727,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>３０号トンネル？</name>
+				<styleUrl>#line-C6A4CF-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.44939,35.647358,0.0 140.446365,35.642249,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>３１号トンネル？</name>
+				<styleUrl>#line-C6A4CF-12-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.441215,35.637994,0.0 140.440571,35.637191,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>３２号トンネル？</name>
+				<styleUrl>#line-C6A4CF-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.439391,35.633442,0.0 140.439091,35.631157,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>３３号トンネル</name>
+				<description><![CDATA[http://s104bn.blogspot.jp/2016/09/blog-post.html]]></description>
+				<styleUrl>#line-C6A4CF-12</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.43407,35.628079,0.0 140.435523,35.628899,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>３４号トンネル？</name>
+				<styleUrl>#line-C6A4CF-12-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.415916,35.617614,0.0 140.424864,35.619367,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>３５号トンネル？</name>
+				<styleUrl>#line-C6A4CF-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.403707,35.609746,0.0 140.407408,35.614674,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>３６号トンネル</name>
+				<description><![CDATA[http://www.city.togane.chiba.jp/cmsfiles/contents/0000001/1940/tokimeki_71_web.pdf]]></description>
+				<styleUrl>#line-C6A4CF-12</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.394427,35.603998,0.0 140.397012,35.605036,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>３７号トンネル</name>
+				<description><![CDATA[http://www.city.togane.chiba.jp/cmsfiles/contents/0000001/1940/tokimeki_71_web.pdf]]></description>
+				<styleUrl>#line-C6A4CF-11</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.385962,35.598746,0.0 140.386756,35.600264,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>３８号トンネル</name>
+				<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/7FaIPqEuLCuBCf8xQ1yNdWSAGUm9bPl_PV_NQg0duxtzU3TAM7kwgz19jKv2mm_YmwJZEhxetVZnkXT4-P9xAyZrGhUzcU5b8kmO6llLgTU_OXRk__E1HZTWRIPhPjd7ZhGwGOi1YCgwFTcWAmvedNA3f7UnZwPCkf5cVJNwCGGwC2vnBcRkAdjKNOf4eG9caKkQuer1-3q9wOo7WRLSjpY2L4_guF8MlZ8wRccBZ3qFcSZWpX8" height="200" width="auto" /><br><br>http://www.city.togane.chiba.jp/cmsfiles/contents/0000001/1940/tokimeki_71_web.pdf]]></description>
+				<styleUrl>#line-C6A4CF-11</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>https://lh5.googleusercontent.com/proxy/7FaIPqEuLCuBCf8xQ1yNdWSAGUm9bPl_PV_NQg0duxtzU3TAM7kwgz19jKv2mm_YmwJZEhxetVZnkXT4-P9xAyZrGhUzcU5b8kmO6llLgTU_OXRk__E1HZTWRIPhPjd7ZhGwGOi1YCgwFTcWAmvedNA3f7UnZwPCkf5cVJNwCGGwC2vnBcRkAdjKNOf4eG9caKkQuer1-3q9wOo7WRLSjpY2L4_guF8MlZ8wRccBZ3qFcSZWpX8</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.381498,35.592971,0.0 140.375426,35.586537,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>３９号トンネル</name>
+				<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/Pj-7C5-j2st6zw761YZ-Oebydy3mofmmlidiP1yRhYHgRV-kaqcpmPRO2XyrwXI1bHyk9B083sVrX7U9bzabtwEOS53kwzR0eZnRPPtRyJjsHgdsa3p4srRO9umnHRwia-fu74XiWm2KBswARu0iRHWkUxNG74LcRn8VzAJcHH62Qnj3h-zSnUTA5StVpDH--EeSZ1ULVsGzIAXJzF1xWArU6nSNpjtR1XBor4pcGxM8bOGJnt5lQA" height="200" width="auto" /><br><br>呑口銘盤「立我烝民」<br>吐口銘盤「穿渠漑田」<br><br><img src="https://lh6.googleusercontent.com/proxy/rv4SpPG87QkCCVFOOHRKpk_tWucE0WCkYayLkHr7wYhTY2Y2h-SNOXm9YTpM6RcyimH4JAllW_7SS7716SI3nzCiiLGMyjfwykSVzdR4vJnAWqGovFE07wIjbRTVq4dYCG019dlKNyiluPqM4D3DZLPa3Sg58ZUqSZ-JTEWuoEaops4hCqMaMqYIaZbVZg7z-MlK-MR1tpzzdIvvPEj_jJAd-hIz_uPiTH--o26l3Fe_Wuoss2A" height="200" width="auto" />]]></description>
+				<styleUrl>#line-C6A4CF-11</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>https://lh4.googleusercontent.com/proxy/Pj-7C5-j2st6zw761YZ-Oebydy3mofmmlidiP1yRhYHgRV-kaqcpmPRO2XyrwXI1bHyk9B083sVrX7U9bzabtwEOS53kwzR0eZnRPPtRyJjsHgdsa3p4srRO9umnHRwia-fu74XiWm2KBswARu0iRHWkUxNG74LcRn8VzAJcHH62Qnj3h-zSnUTA5StVpDH--EeSZ1ULVsGzIAXJzF1xWArU6nSNpjtR1XBor4pcGxM8bOGJnt5lQA https://lh6.googleusercontent.com/proxy/rv4SpPG87QkCCVFOOHRKpk_tWucE0WCkYayLkHr7wYhTY2Y2h-SNOXm9YTpM6RcyimH4JAllW_7SS7716SI3nzCiiLGMyjfwykSVzdR4vJnAWqGovFE07wIjbRTVq4dYCG019dlKNyiluPqM4D3DZLPa3Sg58ZUqSZ-JTEWuoEaops4hCqMaMqYIaZbVZg7z-MlK-MR1tpzzdIvvPEj_jJAd-hIz_uPiTH--o26l3Fe_Wuoss2A</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.343189,35.560712,0.0 140.366392,35.575241,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>４０号トンネル</name>
+				<description><![CDATA[http://www.city.togane.chiba.jp/cmsfiles/contents/0000001/1940/tokimeki_71_web.pdf]]></description>
+				<styleUrl>#line-C6A4CF-12</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.327307,35.545016,0.0 140.329326,35.547564,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>４１号トンネル</name>
+				<description><![CDATA[http://www.city.togane.chiba.jp/cmsfiles/contents/0000001/1940/tokimeki_71_web.pdf]]></description>
+				<styleUrl>#line-C6A4CF-11</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.325448,35.543145,0.0 140.326376,35.544031,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>４２号トンネル</name>
+				<styleUrl>#line-C6A4CF-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.324829,35.541952,0.0 140.324347,35.540844,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>４３号トンネル</name>
+				<styleUrl>#line-C6A4CF-12-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.323788,35.539403,0.0 140.323509,35.538757,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>４４号トンネル</name>
+				<styleUrl>#line-C6A4CF-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.319668,35.534444,0.0 140.316793,35.530436,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>４５号トンネル</name>
+				<styleUrl>#line-C6A4CF-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.311133,35.519391,0.0 140.310312,35.517404,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>４６号トンネル</name>
+				<styleUrl>#line-C6A4CF-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.309484,35.514118,0.0 140.307308,35.509627,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>４７号トンネル</name>
+				<description><![CDATA[http://ameblo.jp/papagenopapagena/entry-11410088673.html]]></description>
+				<styleUrl>#line-C6A4CF-11</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.305605,35.506094,0.0 140.30277,35.498395,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>４８号トンネル</name>
+				<description><![CDATA[http://ameblo.jp/papagenopapagena/entry-11556860078.html]]></description>
+				<styleUrl>#line-C6A4CF-11</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.300904,35.493177,0.0 140.300968,35.486483,0.0 140.2929,35.482602,0.0 140.292138,35.47742,0.0 140.293249,35.468364,0.0 140.296518,35.462087,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>放水路？</name>
+				<description><![CDATA[両総用水－その施設と維持管理の概要（改訂版）－より推測]]></description>
+				<styleUrl>#line-C6A4CF-6</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.316288,35.413921,0.0 140.311053,35.410319,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>旧第３導水路</name>
+				<description><![CDATA[両総用水－その施設と維持管理の概要（改訂版）－より推測]]></description>
+				<styleUrl>#line-C6A4CF-11</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.293232,35.46835,0.0 140.282817,35.461913,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>４９号トンネル</name>
+				<styleUrl>#line-C6A4CF-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.2826861,35.4618587,0.0 140.280143,35.460696,0.0 140.2753275,35.4526933,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>５０号トンネル</name>
+				<styleUrl>#line-C6A4CF-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.2754441,35.4516493,0.0 140.2776554,35.4428966,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>５１号トンネル</name>
+				<styleUrl>#line-C6A4CF-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.2767417,35.4384899,0.0 140.2745046,35.4352749,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>５２号トンネル</name>
+				<styleUrl>#line-CE93D8-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.2734639,35.4338721,0.0 140.2692639,35.4276918,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>１号サイホン</name>
+				<styleUrl>#line-7CCFA9-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.489064,35.876704,0.0 140.489001,35.874724,0.0 140.489055,35.873525,0.0 140.488883,35.872994,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>２号サイホン</name>
+				<styleUrl>#line-7CCFA9-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.486249,35.866582,0.0 140.486456,35.8655,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>３号サイホン</name>
+				<styleUrl>#line-7CCFA9-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.487971,35.862661,0.0 140.489063,35.860579,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>４号サイホン</name>
+				<styleUrl>#line-7CCFA9-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.460296,35.6751,0.0 140.457587,35.673317,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>５号サイホン</name>
+				<styleUrl>#line-7CCFA9-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.454508,35.667103,0.0 140.453843,35.665442,0.0 140.453516,35.664989,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>６号サイホン</name>
+				<styleUrl>#line-7CCFA9-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.439091,35.631157,0.0 140.437954,35.630451,0.0 140.435148,35.628742,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>７号サイホン</name>
+				<styleUrl>#line-7CCFA9-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.415916,35.617614,0.0 140.411587,35.6167,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>８号サイホン</name>
+				<styleUrl>#line-7CCFA9-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.403621,35.609624,0.0 140.401507,35.605721,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>９号サイフォン</name>
+				<description><![CDATA[http://www.city.togane.chiba.jp/cmsfiles/contents/0000001/1940/tokimeki_71_web.pdf]]></description>
+				<styleUrl>#line-7CCFA9-11</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.341228,35.560465,0.0 140.341063,35.560332,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>１０号サイホン</name>
+				<description><![CDATA[http://www.city.togane.chiba.jp/cmsfiles/contents/0000001/1940/tokimeki_71_web.pdf]]></description>
+				<styleUrl>#line-7CCFA9-11</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.33613,35.556476,0.0 140.336232,35.556559,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>１１号サイホン</name>
+				<description><![CDATA[http://www.city.togane.chiba.jp/cmsfiles/contents/0000001/1940/tokimeki_71_web.pdf]]></description>
+				<styleUrl>#line-7CCFA9-11</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.330158,35.548539,0.0 140.329321,35.547548,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>１２号サイホン</name>
+				<styleUrl>#line-7CCFA9-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.314261,35.525024,0.0 140.314061,35.524761,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>１３号サイホン</name>
+				<styleUrl>#line-7CCFA9-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.312893,35.523054,0.0 140.312921,35.522597,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>１４号サイホン</name>
+				<styleUrl>#line-7CCFA9-12-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.311473,35.520213,0.0 140.311421,35.520024,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>１５号サイホン？</name>
+				<styleUrl>#line-7CCFA9-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.302012,35.495989,0.0 140.301936,35.495762,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>１６号サイフォン</name>
+				<description><![CDATA[http://blogs.yahoo.co.jp/kyodain/10905073.html<br>https://www.google.com/maps/d/viewer?mid=1HG_skRpzsm085zTRTtui9Tt_Rro&hl=ja]]></description>
+				<styleUrl>#line-7CCFA9-11</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.302609,35.461107,0.0 140.303484,35.460967,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>１７号サイフォン</name>
+				<description><![CDATA[http://ameblo.jp/papagenopapagena/entry-11284558372.html<br>https://www.google.com/maps/d/viewer?mid=1HG_skRpzsm085zTRTtui9Tt_Rro&hl=ja]]></description>
+				<styleUrl>#line-7CCFA9-12</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.305855,35.460586,0.0 140.306093,35.460554,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>１８号サイホン</name>
+				<styleUrl>#line-7CCFA9-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.315908,35.434703,0.0 140.315902,35.434577,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>１９号サイホン</name>
+				<styleUrl>#line-7CCFA9-10-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.315897,35.425886,0.0 140.315908,35.425698,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>２０号サイホン</name>
+				<styleUrl>#line-7CCFA9-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.315914,35.420464,0.0 140.315768,35.420295,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>２１号サイホン</name>
+				<styleUrl>#line-7CCFA9-10-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.315857,35.41819,0.0 140.315867,35.418099,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>２２号サイホン</name>
+				<styleUrl>#line-7CCFA9-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.315956,35.416973,0.0 140.315972,35.416853,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>２３号サイホン</name>
+				<styleUrl>#line-7CCFA9-11-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.316144,35.415285,0.0 140.316165,35.415174,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>２４号サイホン？</name>
+				<description><![CDATA[両総用水－その施設と維持管理の概要（改訂版）－より推測]]></description>
+				<styleUrl>#line-7CCFA9-11</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.2753329,35.4526431,0.0 140.2754389,35.4516801,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>２５号サイホン</name>
+				<description><![CDATA[両総用水－その施設と維持管理の概要（改訂版）－より推測]]></description>
+				<styleUrl>#line-7CCFA9-11</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.2776487,35.442865,0.0 140.2767417,35.4384899,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>２６号サイホン？</name>
+				<description><![CDATA[両総用水－その施設と維持管理の概要（改訂版）－より推測]]></description>
+				<styleUrl>#line-7CCFA9-11</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.2745046,35.4352749,0.0 140.2734639,35.4338721,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>２７号サイホン？</name>
+				<description><![CDATA[両総用水－その施設と維持管理の概要（改訂版）－より推測]]></description>
+				<styleUrl>#line-7CCFA9-11</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.2692639,35.4276918,0.0 140.2658253,35.4226779,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>第１導水路</name>
+				<styleUrl>#line-0000FF-3-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.489216,35.906328,0.0 140.48898,35.905563,0.0 140.488551,35.904833,0.0 140.488122,35.904138,0.0 140.488164,35.903391,0.0 140.490214,35.901735,0.0 140.490895,35.900681,0.0 140.490546,35.899558,0.0 140.488154,35.896021,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>北部幹線用水路</name>
+				<styleUrl>#line-0000FF-3-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.487797,35.895591,0.0 140.486831,35.894176,0.0 140.486225,35.893286,0.0 140.485651,35.892489,0.0 140.485522,35.892005,0.0 140.486574,35.885932,0.0 140.486907,35.8841,0.0 140.487987,35.8828,0.0 140.489058,35.881557,0.0 140.489066,35.879414,0.0 140.489066,35.877367,0.0 140.489064,35.876704,0.0 140.48902,35.87482,0.0 140.489084,35.873664,0.0 140.488848,35.873051,0.0 140.487687,35.871677,0.0 140.487179,35.870847,0.0 140.486695,35.870077,0.0 140.486031,35.868997,0.0 140.485882,35.868669,0.0 140.486456,35.8655,0.0 140.48754,35.863431,0.0 140.487998,35.862613,0.0 140.489063,35.860579,0.0 140.489361,35.856377,0.0 140.489961,35.853622,0.0 140.490397,35.853094,0.0 140.491302,35.852105,0.0 140.491933,35.851333,0.0 140.492327,35.849884,0.0 140.49242,35.849331,0.0 140.492479,35.849113,0.0 140.492568,35.848796,0.0 140.492604,35.848635,0.0 140.493311,35.846222,0.0 140.493438,35.845602,0.0 140.493441,35.845278,0.0 140.49332,35.845051,0.0 140.493172,35.844863,0.0 140.49152,35.842984,0.0 140.490374,35.841696,0.0 140.489985,35.841174,0.0 140.48756,35.832802,0.0 140.487228,35.832276,0.0 140.487797,35.831112,0.0 140.48961,35.829288,0.0 140.490414,35.822581,0.0 140.491015,35.819066,0.0 140.494234,35.815621,0.0 140.494749,35.80953,0.0 140.498053,35.807651,0.0 140.501744,35.808208,0.0 140.503117,35.806607,0.0 140.50389,35.802465,0.0 140.502388,35.795399,0.0 140.50286,35.790282,0.0 140.501272,35.784155,0.0 140.502946,35.77942,0.0 140.501959,35.777366,0.0 140.49359,35.773258,0.0 140.490758,35.770751,0.0 140.485436,35.762289,0.0 140.482175,35.757727,0.0 140.479042,35.754384,0.0 140.478441,35.746582,0.0 140.47475,35.740591,0.0 140.475909,35.734425,0.0 140.475823,35.729687,0.0 140.478527,35.725576,0.0 140.481316,35.7215,0.0 140.480415,35.716936,0.0 140.475909,35.711744,0.0 140.471103,35.703938,0.0 140.468227,35.698885,0.0 140.466854,35.693413,0.0 140.469944,35.686686,0.0 140.472819,35.683514,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>第２導水路</name>
+				<styleUrl>#line-0000FF-3-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.472597,35.683479,0.0 140.46617,35.678128,0.0 140.464872,35.677239,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>南部幹線用水路（第２揚水機場）</name>
+				<styleUrl>#line-0000FF-3-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.464754,35.677196,0.0 140.459948,35.674956,0.0 140.457587,35.673317,0.0 140.456514,35.671644,0.0 140.454648,35.667425,0.0 140.453848,35.665473,0.0 140.452738,35.663886,0.0 140.452223,35.663206,0.0 140.45196,35.661833,0.0 140.451823,35.661056,0.0 140.451778,35.660356,0.0 140.451807,35.658185,0.0 140.451579,35.657222,0.0 140.450324,35.655008,0.0 140.449895,35.653365,0.0 140.449825,35.652414,0.0 140.449758,35.651819,0.0 140.449699,35.651094,0.0 140.449744,35.650553,0.0 140.449744,35.648727,0.0 140.449654,35.64776,0.0 140.449516,35.647456,0.0 140.446455,35.642173,0.0 140.446228,35.641858,0.0 140.444805,35.641155,0.0 140.444109,35.64088,0.0 140.443808,35.640764,0.0 140.443507,35.640595,0.0 140.442617,35.639622,0.0 140.441791,35.638695,0.0 140.439969,35.635236,0.0 140.439649,35.634388,0.0 140.439091,35.631157,0.0 140.435765,35.62903,0.0 140.433833,35.628169,0.0 140.433343,35.627238,0.0 140.432976,35.626233,0.0 140.432673,35.625148,0.0 140.43234,35.624586,0.0 140.430688,35.623197,0.0 140.429231,35.622334,0.0 140.428721,35.621512,0.0 140.428104,35.620745,0.0 140.424864,35.619367,0.0 140.415916,35.617614,0.0 140.411587,35.6167,0.0 140.4098,35.616288,0.0 140.408702,35.616037,0.0 140.408253,35.615867,0.0 140.406861,35.614256,0.0 140.405016,35.611046,0.0 140.40257,35.607801,0.0 140.401239,35.605708,0.0 140.397098,35.605045,0.0 140.393922,35.603789,0.0 140.390596,35.601677,0.0 140.387828,35.601398,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>南部幹線用水路（公平水路橋～）</name>
+				<styleUrl>#line-0000FF-3-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.316503,35.529433,0.0 140.316793,35.530436,0.0 140.321388,35.536309,0.0 140.322603,35.536889,0.0 140.32284,35.537088,0.0 140.323432,35.5376,0.0 140.323486,35.537789,0.0 140.323472,35.538542,0.0 140.32351,35.538746,0.0 140.323788,35.539403,0.0 140.324003,35.53992,0.0 140.324363,35.54084,0.0 140.324791,35.541893,0.0 140.324983,35.542375,0.0 140.325158,35.542789,0.0 140.325301,35.542995,0.0 140.326246,35.543934,0.0 140.327307,35.545016,0.0 140.329326,35.547564,0.0 140.329542,35.54763,0.0 140.330164,35.548501,0.0 140.330849,35.549449,0.0 140.331519,35.550406,0.0 140.332165,35.551362,0.0 140.332707,35.552314,0.0 140.333278,35.553322,0.0 140.334282,35.555062,0.0 140.33613,35.556476,0.0 140.336291,35.556616,0.0 140.339033,35.558732,0.0 140.341056,35.560302,0.0 140.341231,35.560452,0.0 140.341539,35.560685,0.0 140.341678,35.56073,0.0 140.341826,35.560751,0.0 140.342425,35.560726,0.0 140.343069,35.560655,0.0 140.343186,35.560664,0.0 140.343279,35.560689,0.0 140.36774,35.57593,0.0 140.36909,35.57702,0.0 140.36926,35.577253,0.0 140.369341,35.577947,0.0 140.369407,35.578081,0.0 140.370314,35.579097,0.0 140.370496,35.579199,0.0 140.370714,35.579231,0.0 140.37188,35.579197,0.0 140.373251,35.57911,0.0 140.373483,35.579146,0.0 140.373666,35.579264,0.0 140.3752,35.58086,0.0 140.375276,35.581064,0.0 140.375218,35.581369,0.0 140.37469,35.583813,0.0 140.374787,35.584102,0.0 140.375402,35.58513,0.0 140.375322,35.58627,0.0 140.381498,35.592971,0.0 140.384481,35.594711,0.0 140.385271,35.597172,0.0 140.385962,35.598746,0.0 140.386756,35.600264,0.0 140.387479,35.601219,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>南部幹線用水路（大網南分水口～）</name>
+				<styleUrl>#line-0000FF-3-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.300582,35.461438,0.0 140.296502,35.462074,0.0 140.293232,35.46835,0.0 140.292122,35.477407,0.0 140.292884,35.482589,0.0 140.300952,35.48647,0.0 140.300888,35.493051,0.0 140.301985,35.495893,0.0 140.30277,35.498395,0.0 140.305589,35.506081,0.0 140.306209,35.507012,0.0 140.306549,35.50744,0.0 140.306831,35.508304,0.0 140.307332,35.509647,0.0 140.309468,35.514105,0.0 140.309714,35.514684,0.0 140.310001,35.516633,0.0 140.310229,35.517173,0.0 140.310312,35.517404,0.0 140.311133,35.519391,0.0 140.311421,35.520024,0.0 140.311473,35.520213,0.0 140.311577,35.520449,0.0 140.312733,35.521912,0.0 140.312909,35.522148,0.0 140.312921,35.522597,0.0 140.312893,35.523054,0.0 140.312933,35.523222,0.0 140.314061,35.524761,0.0 140.314261,35.525024,0.0 140.316146,35.527587,0.0 140.316189,35.52807,0.0 140.316208,35.52842,0.0 140.316495,35.529407,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>南部幹線用水路（腰当～終点）</name>
+				<styleUrl>#line-0000FF-3-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.300586,35.461466,0.0 140.302609,35.461107,0.0 140.303484,35.460967,0.0 140.305855,35.460586,0.0 140.306093,35.460554,0.0 140.306985,35.460389,0.0 140.307281,35.460254,0.0 140.307426,35.459993,0.0 140.307727,35.459377,0.0 140.308773,35.457384,0.0 140.308869,35.457201,0.0 140.309157,35.457142,0.0 140.311618,35.456716,0.0 140.312046,35.456526,0.0 140.312506,35.45644,0.0 140.315194,35.456047,0.0 140.315452,35.455947,0.0 140.315441,35.455732,0.0 140.31455,35.453329,0.0 140.313864,35.451686,0.0 140.313244,35.451164,0.0 140.31302,35.450921,0.0 140.312928,35.45069,0.0 140.312914,35.450367,0.0 140.31289,35.449352,0.0 140.312753,35.447253,0.0 140.312834,35.444725,0.0 140.312866,35.444611,0.0 140.313129,35.444576,0.0 140.316074,35.444467,0.0 140.316299,35.444445,0.0 140.316348,35.444323,0.0 140.31616,35.43931,0.0 140.315908,35.434703,0.0 140.315795,35.431197,0.0 140.31647,35.429907,0.0 140.31582,35.427339,0.0 140.3159,35.42575,0.0 140.31607,35.42253,0.0 140.3158,35.4204,0.0 140.315854,35.41821,0.0 140.316124,35.415396,0.0 140.316332,35.414322,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>西部幹線用水路</name>
+				<description><![CDATA[両総用水－その施設と維持管理の概要（改訂版）－より推測]]></description>
+				<styleUrl>#line-0000FF-5</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.292921,35.468465,0.0 140.282817,35.461913,0.0 140.280143,35.460696,0.0 140.2753275,35.4526933,0.0 140.2754441,35.4516493,0.0 140.2776554,35.4428966,0.0 140.2767417,35.4384899,0.0 140.2745046,35.4352749,0.0 140.273437,35.4338327,0.0 140.2658253,35.4226779,0.0 140.266206,35.41859,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>常磐線（排水）</name>
+				<styleUrl>#line-0BA9CC-2-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.500674,35.77653,0.0 140.506899,35.776393,0.0 140.518642,35.772616,0.0 140.519914,35.771554,0.0 140.520499,35.770213,0.0 140.519117,35.76721,0.0 140.51971,35.765878,0.0 140.520402,35.765129,0.0 140.530191,35.763614,0.0 140.533286,35.759208,0.0 140.538652,35.758572,0.0 140.54185,35.760587,0.0 140.546325,35.760341,0.0 140.549083,35.762324,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>常磐第１支線</name>
+				<styleUrl>#line-0BA9CC-3-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.503689,35.793372,0.0 140.505212,35.78956,0.0 140.505336,35.789046,0.0 140.504531,35.787558,0.0 140.504022,35.786083,0.0 140.50429,35.784042,0.0 140.51335,35.778184,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>常磐第２支線</name>
+				<styleUrl>#line-0BA9CC-3-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.501747,35.793032,0.0 140.501212,35.793,0.0 140.497368,35.788308,0.0 140.498431,35.786941,0.0 140.497924,35.785454,0.0 140.498112,35.78398,0.0 140.494002,35.779062,0.0 140.491524,35.778068,0.0 140.490743,35.777492,0.0 140.488293,35.776934,0.0 140.487192,35.776111,0.0 140.486698,35.775018,0.0 140.487027,35.772909,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>多古線</name>
+				<styleUrl>#line-0BA9CC-3-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.474614,35.710202,0.0 140.466278,35.715098,0.0 140.465795,35.716907,0.0 140.463166,35.718856,0.0 140.45675,35.722789,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>南条線</name>
+				<styleUrl>#line-0BA9CC-3-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.480461,35.715159,0.0 140.485697,35.707911,0.0 140.493895,35.701342,0.0 140.501062,35.697003,0.0 140.504751,35.690834,0.0 140.508914,35.687679,0.0 140.513764,35.68815,0.0 140.517111,35.685048,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>松尾線</name>
+				<styleUrl>#line-0BA9CC-3-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.450334,35.64823,0.0 140.45763,35.650671,0.0 140.467329,35.667756,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>南郷線</name>
+				<styleUrl>#line-0BA9CC-3-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.430336,35.621582,0.0 140.434371,35.611674,0.0 140.442009,35.605952,0.0 140.448983,35.602096,0.0 140.451805,35.599656,0.0 140.454798,35.597529,0.0 140.455571,35.596434,0.0 140.452352,35.585799,0.0 140.456428,35.580546,0.0 140.46484,35.572868,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>東金線</name>
+				<styleUrl>#line-0BA9CC-3-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.375383,35.581908,0.0 140.378049,35.581089,0.0 140.378584,35.581246,0.0 140.380704,35.579744,0.0 140.390532,35.573723,0.0 140.399823,35.567806,0.0 140.404007,35.564978,0.0 140.409586,35.560841,0.0 140.42141,35.550664,0.0 140.419178,35.535719,0.0 140.424671,35.533484,0.0 140.422783,35.529293,0.0 140.427418,35.527756,0.0 140.426559,35.524123,0.0 140.430679,35.522726,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>福岡線</name>
+				<styleUrl>#line-0BA9CC-3-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.338946,35.558674,0.0 140.347123,35.540398,0.0 140.358281,35.534077,0.0 140.367937,35.528734,0.0 140.398922,35.511688,0.0 140.388966,35.48192,0.0 140.395489,35.478565,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>増穂線</name>
+				<styleUrl>#line-0BA9CC-3-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.326711,35.543995,0.0 140.330579,35.539193,0.0 140.335236,35.534287,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>大網線</name>
+				<styleUrl>#line-0BA9CC-3-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.316696,35.529397,0.0 140.318026,35.521993,0.0 140.322726,35.519382,0.0 140.326406,35.518181,0.0 140.328712,35.517212,0.0 140.366821,35.506798,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>本納線</name>
+				<styleUrl>#line-0BA9CC-2-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.302761,35.498145,0.0 140.30424,35.497024,0.0 140.30674,35.496386,0.0 140.310184,35.496011,0.0 140.312104,35.496194,0.0 140.314894,35.494866,0.0 140.317522,35.494604,0.0 140.322554,35.493425,0.0 140.375946,35.485804,0.0 140.382468,35.479472,0.0 140.404606,35.470343,0.0 140.40081,35.46039,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>東郷線</name>
+				<styleUrl>#line-0BA9CC-3-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.315645,35.455802,0.0 140.315741,35.455802,0.0 140.316288,35.455916,0.0 140.321138,35.4554,0.0 140.321256,35.454885,0.0 140.326513,35.454701,0.0 140.326835,35.454797,0.0 140.327071,35.45478,0.0 140.327103,35.454963,0.0 140.334957,35.453722,0.0 140.354204,35.45242,0.0 140.354805,35.453888,0.0 140.359955,35.45277,0.0 140.359869,35.451301,0.0 140.365019,35.450882,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>高根線</name>
+				<styleUrl>#line-0BA9CC-2-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.316406,35.443094,0.0 140.320258,35.442946,0.0 140.32441,35.438645,0.0 140.365877,35.435988,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>茂原線</name>
+				<styleUrl>#line-0BA9CC-3-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.316267,35.413397,0.0 140.319786,35.403883,0.0 140.335922,35.402274,0.0 140.34811,35.39031,0.0 140.34502,35.385971,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>五郷線</name>
+				<styleUrl>#line-0BA9CC-3-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.266399,35.417524,0.0 140.270948,35.413746,0.0 140.275068,35.412697,0.0 140.28245,35.412697,0.0 140.28863,35.412347,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>大須賀線（排水）</name>
+				<styleUrl>#line-0BA9CC-3-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.420723,35.845369,0.0 140.433146,35.854326,0.0 140.439563,35.867874,0.0 140.440443,35.873342,0.0 140.443158,35.877746,0.0 140.444586,35.882637,0.0 140.446368,35.883933,0.0 140.452443,35.886829,0.0 140.453548,35.887425,0.0 140.454374,35.888294,0.0 140.4552,35.889398,0.0 140.456466,35.890962,0.0 140.457582,35.892509,0.0 140.45799,35.894256,0.0 140.458274,35.895173,0.0 140.459534,35.896103,0.0 140.462893,35.898354,0.0 140.464448,35.899158,0.0 140.466245,35.899749,0.0 140.468863,35.899836,0.0 140.471256,35.899558,0.0 140.474056,35.899854,0.0 140.475408,35.900175,0.0 140.477886,35.901505,0.0 140.47927,35.902061,0.0 140.483572,35.902869,0.0 140.487274,35.903521,0.0 140.487703,35.903625,0.0 140.488293,35.904824,0.0 140.488926,35.90578,0.0 140.489119,35.906302,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>大須賀線（用水）</name>
+				<styleUrl>#line-0BA9CC-3-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>140.440856,35.870434,0.0 140.443728,35.870297,0.0 140.447323,35.870506,0.0 140.449091,35.870507,0.0 140.451134,35.870488,0.0 140.453696,35.870146,0.0 140.454457,35.870357,0.0 140.454827,35.87035,0.0 140.459319,35.870273,0.0 140.459581,35.870278,0.0 140.459865,35.870339,0.0 140.46291,35.870905,0.0 140.465076,35.87119,0.0 140.465623,35.872212,0.0 140.465746,35.872851,0.0 140.466264,35.873692,0.0 140.466809,35.874711,0.0 140.472264,35.875672,0.0 140.480584,35.88378,0.0 140.481866,35.884039,0.0 140.486276,35.886668,0.0</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Style id='icon-124-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/124-red.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-124-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/124-red.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-124-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-124-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-124-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-503-4186F0-nodesc-normal'>
+			<IconStyle>
+				<color>ffF08641</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-4186F0-nodesc-highlight'>
+			<IconStyle>
+				<color>ffF08641</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-503-4186F0-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-4186F0-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-4186F0-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-503-DB4436-nodesc-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-DB4436-nodesc-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-503-DB4436-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-0000FF-3-nodesc-normal'>
+			<LineStyle>
+				<color>ffFF0000</color>
+				<width>3</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-0000FF-3-nodesc-highlight'>
+			<LineStyle>
+				<color>ffFF0000</color>
+				<width>5.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-0000FF-3-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-0000FF-3-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-0000FF-3-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-0000FF-5-normal'>
+			<LineStyle>
+				<color>ffFF0000</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-0000FF-5-highlight'>
+			<LineStyle>
+				<color>ffFF0000</color>
+				<width>8.0</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id='line-0000FF-5'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-0000FF-5-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-0000FF-5-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-0BA9CC-2-nodesc-normal'>
+			<LineStyle>
+				<color>ffCCA90B</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-0BA9CC-2-nodesc-highlight'>
+			<LineStyle>
+				<color>ffCCA90B</color>
+				<width>3.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-0BA9CC-2-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-0BA9CC-2-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-0BA9CC-2-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-0BA9CC-3-nodesc-normal'>
+			<LineStyle>
+				<color>ffCCA90B</color>
+				<width>3</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-0BA9CC-3-nodesc-highlight'>
+			<LineStyle>
+				<color>ffCCA90B</color>
+				<width>5.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-0BA9CC-3-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-0BA9CC-3-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-0BA9CC-3-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-7CCFA9-10-nodesc-normal'>
+			<LineStyle>
+				<color>ffA9CF7C</color>
+				<width>10</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-7CCFA9-10-nodesc-highlight'>
+			<LineStyle>
+				<color>ffA9CF7C</color>
+				<width>15.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-7CCFA9-10-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-7CCFA9-10-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-7CCFA9-10-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-7CCFA9-11-normal'>
+			<LineStyle>
+				<color>ffA9CF7C</color>
+				<width>11</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-7CCFA9-11-highlight'>
+			<LineStyle>
+				<color>ffA9CF7C</color>
+				<width>17.0</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id='line-7CCFA9-11'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-7CCFA9-11-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-7CCFA9-11-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-7CCFA9-11-nodesc-normal'>
+			<LineStyle>
+				<color>ffA9CF7C</color>
+				<width>11</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-7CCFA9-11-nodesc-highlight'>
+			<LineStyle>
+				<color>ffA9CF7C</color>
+				<width>17.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-7CCFA9-11-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-7CCFA9-11-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-7CCFA9-11-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-7CCFA9-12-normal'>
+			<LineStyle>
+				<color>ffA9CF7C</color>
+				<width>12</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-7CCFA9-12-highlight'>
+			<LineStyle>
+				<color>ffA9CF7C</color>
+				<width>18.0</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id='line-7CCFA9-12'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-7CCFA9-12-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-7CCFA9-12-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-7CCFA9-12-nodesc-normal'>
+			<LineStyle>
+				<color>ffA9CF7C</color>
+				<width>12</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-7CCFA9-12-nodesc-highlight'>
+			<LineStyle>
+				<color>ffA9CF7C</color>
+				<width>18.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-7CCFA9-12-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-7CCFA9-12-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-7CCFA9-12-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-C6A4CF-10-normal'>
+			<LineStyle>
+				<color>ffCFA4C6</color>
+				<width>10</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-C6A4CF-10-highlight'>
+			<LineStyle>
+				<color>ffCFA4C6</color>
+				<width>15.0</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id='line-C6A4CF-10'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-C6A4CF-10-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-C6A4CF-10-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-C6A4CF-11-normal'>
+			<LineStyle>
+				<color>ffCFA4C6</color>
+				<width>11</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-C6A4CF-11-highlight'>
+			<LineStyle>
+				<color>ffCFA4C6</color>
+				<width>17.0</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id='line-C6A4CF-11'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-C6A4CF-11-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-C6A4CF-11-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-C6A4CF-11-nodesc-normal'>
+			<LineStyle>
+				<color>ffCFA4C6</color>
+				<width>11</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-C6A4CF-11-nodesc-highlight'>
+			<LineStyle>
+				<color>ffCFA4C6</color>
+				<width>17.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-C6A4CF-11-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-C6A4CF-11-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-C6A4CF-11-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-C6A4CF-12-normal'>
+			<LineStyle>
+				<color>ffCFA4C6</color>
+				<width>12</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-C6A4CF-12-highlight'>
+			<LineStyle>
+				<color>ffCFA4C6</color>
+				<width>18.0</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id='line-C6A4CF-12'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-C6A4CF-12-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-C6A4CF-12-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-C6A4CF-12-nodesc-normal'>
+			<LineStyle>
+				<color>ffCFA4C6</color>
+				<width>12</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-C6A4CF-12-nodesc-highlight'>
+			<LineStyle>
+				<color>ffCFA4C6</color>
+				<width>18.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-C6A4CF-12-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-C6A4CF-12-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-C6A4CF-12-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-C6A4CF-6-normal'>
+			<LineStyle>
+				<color>ffCFA4C6</color>
+				<width>6</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-C6A4CF-6-highlight'>
+			<LineStyle>
+				<color>ffCFA4C6</color>
+				<width>9.0</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id='line-C6A4CF-6'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-C6A4CF-6-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-C6A4CF-6-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-CE93D8-11-nodesc-normal'>
+			<LineStyle>
+				<color>ffD893CE</color>
+				<width>11</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-CE93D8-11-nodesc-highlight'>
+			<LineStyle>
+				<color>ffD893CE</color>
+				<width>17.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-CE93D8-11-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-CE93D8-11-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-CE93D8-11-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>
