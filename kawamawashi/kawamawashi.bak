@@ -1,0 +1,79 @@
+@charset "Shift_JIS";
+* {
+	margin			: 0;
+	padding			: 0;
+}
+
+html {
+	font-family: "ƒqƒ‰ƒMƒmŠpƒS Pro W3", "Hiragino Kaku Gothic Pro", "‚l‚r ‚oƒSƒVƒbƒN", "MS PGothic", Helvetica, Arial;
+}
+body {
+	text-align: center;
+	background		: #959595;
+
+}
+
+a,h1,h2,h3,p {
+	margin			: 5px;
+	margin-top		: 10px;
+}
+
+.description {
+	margin			: 10px;
+}
+
+#container {
+	width			: 916px;
+	text-align		: left;
+	margin			: 0 auto;
+	padding		: 0px;
+	background : transparent url(_img/bg_container.gif) repeat-y scroll left top;
+}
+
+#bar{
+  margin-left : 8px;
+}
+
+#wrap {
+	width:900px;
+	margin-left		: 8px;
+}
+
+.table_1 {
+	margin-left:	5px;
+	margin-right:	5px;
+	border:			0px; 
+	width:			900px; 
+	cellpadding:	0px; 
+	cellspacing:	0px
+}
+
+#map_canvas {
+	width:		600px;
+       height:	600px;
+	margin:	10px
+}
+
+#date {
+	text-align:		right;
+
+
+
+#list_name{
+	width:		150px;
+}
+
+#list_type{
+	width:		80px;
+}
+
+#list_place{
+	width:		150px;
+}
+
+#list_comment{
+	width:		400px;
+}
+
+
+
