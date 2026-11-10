@@ -12,7 +12,8 @@ body {
 h1 {
 	padding:	10px;
 	text-decoration: none;
-	font: normal 60px 'Italianno', cursive;
+//	font: normal 60px 'Italianno', cursive;
+	font: normal 60px;
 	color: #8DF;	
 }
 
