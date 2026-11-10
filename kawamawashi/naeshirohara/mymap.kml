@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>川廻し　苗代原</name>
+  <description><![CDATA[]]></description>
+  <Style id="style5">
+    <LineStyle>
+      <color>730000FF</color>
+      <width>10</width>
+    </LineStyle>
+  </Style>
+  <Style id="style6">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style2">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style3">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>../icon/alphabet/red/A.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>../icon/alphabet/red/B.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>../icon/alphabet/red/C.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>線 4</name>
+    <Snippet></Snippet>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style5</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        140.311035,35.215477,0.000000
+        140.311356,35.215534,0.000000
+        140.311737,35.215710,0.000000
+        140.312164,35.216141,0.000000
+        140.312332,35.216949,0.000000
+        140.312210,35.217030,0.000000
+        140.311691,35.217152,0.000000
+        140.311386,35.217419,0.000000
+        140.311127,35.217819,0.000000
+        140.311157,35.218079,0.000000
+        140.310867,35.218399,0.000000
+        140.310684,35.218410,0.000000
+        140.310410,35.218040,0.000000
+        140.310272,35.217754,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>線 14</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style6</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        140.309448,35.214153,0.000000
+        140.309280,35.214340,0.000000
+        140.309265,35.214600,0.000000
+        140.309326,35.214741,0.000000
+        140.309525,35.214916,0.000000
+        140.309647,35.214989,0.000000
+        140.309830,35.214985,0.000000
+        140.309998,35.214985,0.000000
+        140.310150,35.215004,0.000000
+        140.310211,35.215065,0.000000
+        140.310181,35.215134,0.000000
+        140.310028,35.215160,0.000000
+        140.309891,35.215263,0.000000
+        140.309769,35.215382,0.000000
+        140.309784,35.215500,0.000000
+        140.309830,35.215603,0.000000
+        140.309982,35.215668,0.000000
+        140.310211,35.215675,0.000000
+        140.310410,35.215645,0.000000
+        140.310532,35.215603,0.000000
+        140.310760,35.215546,0.000000
+        140.310944,35.215508,0.000000
+        140.310944,35.215504,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>線 15</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style2</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        140.311295,35.215858,0.000000
+        140.311325,35.216022,0.000000
+        140.311325,35.216232,0.000000
+        140.311371,35.216427,0.000000
+        140.311340,35.216572,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>線 16</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style3</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        140.311188,35.217201,0.000000
+        140.311035,35.217384,0.000000
+        140.310898,35.217514,0.000000
+        140.310760,35.217594,0.000000
+        140.310547,35.217690,0.000000
+        140.310379,35.217731,0.000000
+        140.310196,35.217731,0.000000
+        140.309982,35.217766,0.000000
+        140.309875,35.217888,0.000000
+        140.309860,35.217983,0.000000
+        140.309845,35.218105,0.000000
+        140.309677,35.218185,0.000000
+        140.309570,35.218216,0.000000
+        140.309418,35.218159,0.000000
+        140.309265,35.218044,0.000000
+        140.309158,35.217964,0.000000
+        140.309067,35.217918,0.000000
+        140.308960,35.217876,0.000000
+        140.308868,35.217865,0.000000
+        140.308838,35.217911,0.000000
+        140.308838,35.218086,0.000000
+        140.308838,35.218281,0.000000
+        140.308945,35.218426,0.000000
+        140.308990,35.218536,0.000000
+        140.308990,35.218655,0.000000
+        140.308899,35.218746,0.000000
+        140.308777,35.218803,0.000000
+        140.308578,35.218811,0.000000
+        140.308456,35.218845,0.000000
+        140.308365,35.218903,0.000000
+        140.308456,35.218990,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>目印 1</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>140.310959,35.215317,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>目印 2</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>140.311188,35.217270,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>目印 3</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>140.311264,35.217884,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

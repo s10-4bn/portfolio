@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>市野郷</name>
+  <description><![CDATA[]]></description>
+  <Style id="style4">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style3">
+    <LineStyle>
+      <color>730000FF</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>../icon/alphabet/red/A.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>../icon/alphabet/red/B.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>../icon/alphabet/red/C.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>現在の川</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style4</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        140.277618,35.227844,0.000000
+        140.277435,35.227871,0.000000
+        140.277145,35.227852,0.000000
+        140.276886,35.227757,0.000000
+        140.276718,35.227760,0.000000
+        140.276520,35.227936,0.000000
+        140.276474,35.228058,0.000000
+        140.276489,35.228176,0.000000
+        140.276474,35.228329,0.000000
+        140.276306,35.228428,0.000000
+        140.276031,35.228432,0.000000
+        140.275925,35.228386,0.000000
+        140.275803,35.228378,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>フルカワ</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style3</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        140.276459,35.228001,0.000000
+        140.276260,35.227825,0.000000
+        140.276016,35.227654,0.000000
+        140.275772,35.227467,0.000000
+        140.275558,35.227287,0.000000
+        140.275345,35.227070,0.000000
+        140.275314,35.226833,0.000000
+        140.275497,35.226753,0.000000
+        140.275742,35.226669,0.000000
+        140.275986,35.226730,0.000000
+        140.276291,35.227032,0.000000
+        140.276581,35.227329,0.000000
+        140.276779,35.227524,0.000000
+        140.276810,35.227715,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>目印 1</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>140.276718,35.227825,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>目印 2</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>140.276672,35.227806,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>目印 3</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>140.276688,35.227695,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>
