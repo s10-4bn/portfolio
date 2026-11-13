@@ -1,4 +1,4 @@
-// photosetから写真を削除できるように変更した（2017-10-08）
+﻿// photosetから写真を削除できるように変更した（2017-10-08）
 
 var token_;
 
@@ -19,6 +19,30 @@ var lat_prev = [];
 var lon_prev = [];
 var my_photoset_title;
 var my_photoset_description;
+
+// ChatGPTが挿入（ここから）
+// File System Access API で選択した入力元フォルダ
+var sourceDirectoryHandle = null;
+
+// フォルダ内のファイルをサブフォルダも含めて再帰的に取得
+async function collectLocalFiles(directoryHandle, relativeDirectory, result) {
+    for await (const entry of directoryHandle.values()) {
+        var relativePath = relativeDirectory
+            ? relativeDirectory + "/" + entry.name
+            : entry.name;
+
+        if (entry.kind === "directory") {
+            await collectLocalFiles(entry, relativePath, result);
+        } else if (entry.kind === "file") {
+            var file = await entry.getFile();
+            result.push({
+                file: file,
+                relativePath: relativePath
+            });
+        }
+    }
+}
+// ChatGPTが挿入（ここまで）
 
 var flickrPhotoset;
 
@@ -45,74 +69,56 @@ window.onload = function () {
 
 
 
-	$("#selectLocalPhotoFolder").on("click", function() {
-	
-	    $("#localPhotoFolder").val("");
-	
-	    $("#localPhotoFolder").trigger("click");
-	
-	});
-	
-	
-	$("#localPhotoFolder").on("change", function(e) {
-
-		$("#initialize").css({display: "none"}); 
-//		$("#collections").css({display: "block"});
-
-	    var files = Array.from(e.target.files);
-	
-	    if (!files.length) {
+// VhatGPT が　File System Access API 対応に修正（ここから）
+	$("#selectLocalPhotoFolder").on("click", async function() {
+	    if (!window.showDirectoryPicker) {
+	        alert("このブラウザでは File System Access API に対応していません。Chrome または Edge で http://localhost / https:// から開いてください。");
 	        return;
 	    }
 
-    // .jpg / .jpeg / .txt 以外を削除
-    files = files.filter(function(file) {
-        return /\.(jpe?g|txt)$/i.test(file.name);
-    });
+	    try {
+	        // 入力元フォルダのハンドルを保持する（保存時にも同じハンドルを使用）
+	        sourceDirectoryHandle = await window.showDirectoryPicker({ mode: "readwrite" });
+	        var files = [];
+	        await collectLocalFiles(sourceDirectoryHandle, "", files); // File System Access API　で　filesを取得
 
-//console.log(files);
+	        files = files.filter(function(item) {
+	            return /\.(jpe?g|txt)$/i.test(item.file.name);
+	        });
 
-        // フォルダを含む相対パス
-		var file = files[0];
-        var path = file.webkitRelativePath;
-        var parts = path.split("/");
-        var photosetId = parts[0];
-	
-collections = [];
-           photoset = {
-                id: photosetId,
-                title: photosetId,
-                photos: []
-            };
+	        if (!files.length) {
+	            alert("選択したフォルダに JPG / JPEG / info.txt がありません。");
+	            return;
+	        }
 
-$.each(files, function(i, file) {
+	        photoset = {
+	            id: sourceDirectoryHandle.name,
+	            title: sourceDirectoryHandle.name,
+	            photos: []
+	        };
 
-        // -----------------------------------
-        // photoを追加
-        // -----------------------------------
+	        files.forEach(function(item) {
+	            // File にフォルダ内相対パスを保持させる
+	            item.file.localRelativePath = item.relativePath;
+	            photoset.photos.push(item.file);
+	        });
 
-        photoset.photos.push(file);
+	        $("#initialize").css({ display: "none" });
 
-    });
+	        link_html = "";
+	        link_html += '<div class="link_ref"><a id="quit" onclick="saveMeta();">保存</a></div>';
+	        link_html += '<p class="link_ref"><a onclick="Quit();">編集終了</a></p>';
+	        document.getElementById("link").innerHTML = link_html;
 
+	        EditPhotos();
 
-//			getSetInfo(collection_title);
-
-	// linkのhtml作成
-	link_html = "";	
-	link_html += '<div  class="link_ref"><a id="quit" onclick="saveMeta();">保存</a></div>';
-	link_html += '<p class="link_ref"><a onclick="Quit();">編集終了</a></p>';
-
-	document.getElementById("link").innerHTML = link_html;
-//console.log(photoset);
-	EditPhotos();
-		
+	    } catch (e) {
+	        if (e && e.name === "AbortError") return;
+	        console.error("フォルダ読み込みエラー:", e);
+	        alert("フォルダを読み込めませんでした。\n" + (e.message || e));
+	    }
 	});
-
-
-
-
-
+// VhatGPT が　File System Access API 対応に修正（ここまで）
 
 
 
@@ -380,23 +386,11 @@ async function saveMeta() {
         return;
     }
 
-    // 保存先として、最初に写真を読み込んだフォルダそのものを選択
-    var directoryHandle;
-    try {
-        directoryHandle = await window.showDirectoryPicker({ mode: "readwrite" });
-    } catch (e) {
-        if (e && e.name === "AbortError") return;
-        alert("保存先フォルダを開けませんでした。\n" + (e.message || e));
+    // 入力時に選択したフォルダへ保存する
+    var directoryHandle = sourceDirectoryHandle;
+    if (!directoryHandle) {
+        alert("入力元フォルダが選択されていません。");
         return;
-    }
-
-    if (photoset && photoset.id && directoryHandle.name !== photoset.id) {
-        var ok = confirm(
-            "選択したフォルダ名は「" + directoryHandle.name + "」です。\n" +
-            "写真を読み込んだフォルダ「" + photoset.id + "」とは異なります。\n\n" +
-            "このフォルダに保存してよろしいですか？"
-        );
-        if (!ok) return;
     }
 
     document.body.style.cursor = "wait";
